@@ -3,12 +3,60 @@
 require_rel 'page'
 
 class MemberPage < Page
-  field :id do
-    url.to_s[/PAD_(\d+)/, 1]
+  field :name do
+    noko.xpath("id('CenterContainer')/h1").text.tidy
   end
 
-  field :name do
-    noko.css('h1#inhalt').text.tidy
+  field :area do
+    noko.xpath("id('Breadcrumb')/li[5]/a").text.tidy
+  end
+
+  field :party do
+    "Independent"
+  end
+
+  field :address do
+    noko.xpath('//p//span[.="Address:"]/following-sibling::text()')
+        .reduce(""){ |address, line| address+line+" " }
+        .tidy
+  end
+
+  field :email do
+    noko.css('p a[href^="mailto:"]/@href').text.gsub('mailto:','').tidy
+  end
+
+  field :website do
+    noko.xpath('//div[@id="contactDetails"]//span[.="Website:"]/following-sibling::a/@href')
+        .text
+        .tidy
+  end
+
+  field :twitter do
+    noko.xpath('//div[@id="contactDetails"]//span[@class="icon-tw"]/../@href')
+        .text
+        .tidy
+  end
+
+  field :facebook do
+    noko.xpath('//div[@id="contactDetails"]//span[@class="icon-fb"]/../@href')
+        .text
+        .tidy
+  end
+
+  field :term do
+    2016
+  end
+
+  field :phone do
+    noko.xpath('//div[@id="contactDetails"]//span[.="Telephone:"]/following-sibling::text()')
+        .text
+        .tidy
+  end
+
+  field :mobile do
+    noko.xpath('//div[@id="contactDetails"]//span[.="Mobile:"]/following-sibling::text()')
+        .text
+        .tidy
   end
 
   field :source do
