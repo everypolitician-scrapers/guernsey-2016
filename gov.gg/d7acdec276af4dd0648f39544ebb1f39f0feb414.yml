@@ -1,0 +1,49 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/article/153116/Lyndon-Trott
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ASP.NET_SessionId=qts1ykcovafuvg3frpqjvbhz; path=/; HttpOnly
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    - TextOnlyX=; expires=Wed, 12-Oct-2011 11:33:39 GMT; path=/
+    - clientvars=18158e26-aa07-47b0-9aac-ec10389aec7f; expires=Fri, 14-Oct-2016 11:33:39
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Thu, 19-Jan-2017 12:33:39 GMT; path=/
+    Expires:
+    - Wed, 12 Oct 2016 11:33:39 GMT
+    Date:
+    - Wed, 12 Oct 2016 11:33:41 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Server:
+    - Microsoft-IIS/7.5
+    Cache-Control:
+    - private
+    Pragma:
+    - no-cache
+    X-Powered-By:
+    - ASP.NET
+    Transfer-Encoding:
+    - chunked
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 11:33:42 GMT
