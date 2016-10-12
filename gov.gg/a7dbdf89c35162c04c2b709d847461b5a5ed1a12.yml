@@ -1,0 +1,45 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/article/153558/Deputy-Laurie-Queripel
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ASP.NET_SessionId=rou5a42o1dapphknwa3vdt4n; path=/; HttpOnly
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    - TextOnlyX=; expires=Wed, 12-Oct-2011 11:27:50 GMT; path=/
+    - clientvars=7916c3e7-d2ba-4971-809c-44428312c4c3; expires=Fri, 14-Oct-2016 11:27:50
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Thu, 19-Jan-2017 12:27:50 GMT; path=/
+    Content-Length:
+    - '0'
+    Date:
+    - Wed, 12 Oct 2016 11:27:50 GMT
+    Location:
+    - https://gov.gg/article/153134/Laurie-Queripel
+    Server:
+    - Microsoft-IIS/7.5
+    Cache-Control:
+    - private
+    X-Powered-By:
+    - ASP.NET
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 11:27:51 GMT
