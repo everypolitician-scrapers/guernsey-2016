@@ -1,0 +1,45 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/article/153557/Deputy-Mary-Lowe
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ASP.NET_SessionId=id5rtqei25gtm4is4qgzzgaj; path=/; HttpOnly
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    - TextOnlyX=; expires=Wed, 12-Oct-2011 11:28:36 GMT; path=/
+    - clientvars=359a6870-da12-4815-99cc-d0d48187b1fb; expires=Fri, 14-Oct-2016 11:28:35
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Thu, 19-Jan-2017 12:28:36 GMT; path=/
+    Content-Length:
+    - '0'
+    Date:
+    - Wed, 12 Oct 2016 11:28:35 GMT
+    Location:
+    - https://gov.gg/article/153133/Mary-Lowe
+    Server:
+    - Microsoft-IIS/7.5
+    Cache-Control:
+    - private
+    X-Powered-By:
+    - ASP.NET
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 11:28:36 GMT
