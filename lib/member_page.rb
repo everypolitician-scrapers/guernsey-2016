@@ -17,8 +17,9 @@ class MemberPage < Page
 
   field :address do
     noko.xpath('//p//span[.="Address:"]/following-sibling::text()')
-        .reduce(""){ |address, line| address+line+" " }
-        .tidy
+        .map(&:text)
+        .map(&:tidy)
+        .join(', ')
   end
 
   field :email do
