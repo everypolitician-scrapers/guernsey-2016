@@ -1,0 +1,45 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/article/153566/Deputy-Carl-Meerveld
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ASP.NET_SessionId=yykxkqea1bvl5nl2xtvy1ujn; path=/; HttpOnly
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    - TextOnlyX=; expires=Wed, 12-Oct-2011 11:31:17 GMT; path=/
+    - clientvars=9360b98b-f6dd-4059-bc96-fafbe6230616; expires=Fri, 14-Oct-2016 11:31:17
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Thu, 19-Jan-2017 12:31:17 GMT; path=/
+    Content-Length:
+    - '0'
+    Date:
+    - Wed, 12 Oct 2016 11:31:17 GMT
+    Location:
+    - https://gov.gg/article/153120/Carl-Meerveld
+    Server:
+    - Microsoft-IIS/7.5
+    Cache-Control:
+    - private
+    X-Powered-By:
+    - ASP.NET
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 11:31:18 GMT
