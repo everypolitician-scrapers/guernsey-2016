@@ -22,7 +22,9 @@ class MemberPage < Page
   end
 
   field :email do
-    noko.css('p a[href^="mailto:"]/@href').text.gsub('mailto:','').tidy
+    noko.xpath('//p/a[contains(@href, "mailto:")]/@href').text
+                                                         .gsub('mailto:','')
+                                                         .tidy
   end
 
   field :website do
