@@ -1,0 +1,46 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/html/ErrorPageCustom.html?aspxerrorpath=/index.aspx
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    Content-Length:
+    - '1474'
+    Date:
+    - Wed, 12 Oct 2016 11:29:23 GMT
+    Content-Type:
+    - text/html;charset=utf-8
+    Etag:
+    - '"588ca8ebea1fd21:0"'
+    Server:
+    - Microsoft-IIS/7.5
+    Accept-Ranges:
+    - bytes
+    Cache-Control:
+    - max-age=86400
+    Last-Modified:
+    - Thu, 06 Oct 2016 16:01:38 GMT
+    X-Powered-By:
+    - ASP.NET
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 12 Oct 2016 11:29:24 GMT
