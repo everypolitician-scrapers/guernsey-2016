@@ -46,7 +46,15 @@ class MemberPage < Page
   end
 
   field :phone do
-    member_telephone
+    noko.xpath('//div[@id="contactDetails"]//span[.="Telephone:"]/following-sibling::text()')
+        .text
+        .tidy
+  end
+
+  field :mobile do
+    noko.xpath('//div[@id="contactDetails"]//span[.="Mobile:"]/following-sibling::text()')
+        .text
+        .tidy
   end
 
   field :term do
@@ -55,25 +63,5 @@ class MemberPage < Page
 
   field :source do
     url.to_s
-  end
-
-  private
-
-  def member_telephone
-     return phone unless mobile.to_s.tidy.length > 0
-     return mobile unless phone.to_s.tidy.length > 0
-     phone+";"+mobile
-  end
-
-  def phone
-    noko.xpath('//div[@id="contactDetails"]//span[.="Telephone:"]/following-sibling::text()')
-        .text
-        .tidy
-  end
-
-  def mobile
-    noko.xpath('//div[@id="contactDetails"]//span[.="Mobile:"]/following-sibling::text()')
-        .text
-        .tidy
   end
 end
