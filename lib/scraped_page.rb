@@ -14,7 +14,9 @@ class ScrapedPage
   attr_reader :url
 
   def response
-    @response ||= open(url)
+    @response ||= open(url).tap do |response|
+      ArchivedResponse.new(response).store
+    end
   end
 
   def response_body
