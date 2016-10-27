@@ -3,51 +3,11 @@ require 'nokogiri'
 require 'uri'
 require 'field_serializer'
 
+require_rel 'scraped_page'
+
+# Abstract class which scrapers can extend to implement their functionality.
 class ScrapedPage
   include FieldSerializer
-
-  class Strategy
-    MissingMethodError = Class.new(StandardError)
-
-    def initialize(url)
-      @url = url
-    end
-
-    def body
-      raise MissingMethodError, "Strategy must provide '#body' method to return response body"
-    end
-
-    private
-
-    attr_reader :url
-  end
-
-  class OpenURIStrategy < Strategy
-    def body
-      @body ||=
-        begin
-          body = response.read
-          response.rewind
-          body
-        end
-    end
-
-    private
-
-    def response
-      @response ||= open(url)
-    end
-  end
-
-  class OpenURIArchiveStrategy < OpenURIStrategy
-    private
-
-    def response
-      super.tap do |response|
-        # Archiver.new(response).store
-      end
-    end
-  end
 
   def initialize(url:, strategy: ScrapedPage::OpenURIStrategy)
     @url = url
