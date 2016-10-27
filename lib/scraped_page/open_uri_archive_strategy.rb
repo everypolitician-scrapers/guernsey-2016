@@ -4,7 +4,7 @@ class ScrapedPage
 
     def response
       super.tap do |response|
-        # Archiver.new(response).store
+        # Archive.new(response).store
       end
     end
   end
