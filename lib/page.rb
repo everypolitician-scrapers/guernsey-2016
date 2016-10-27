@@ -13,17 +13,14 @@ end
 class Page
   include FieldSerializer
 
-  def initialize(url)
-    @url = url
-  end
-
-  def noko
-    @noko ||= Nokogiri::HTML(open(url).read)
+  def initialize(interaction)
+    @url = interaction.url
+    @noko = interaction.noko
   end
 
   private
 
-  attr_reader :url
+  attr_reader :url, :noko
 
   def absolute_url(rel)
     return if rel.to_s.empty?
