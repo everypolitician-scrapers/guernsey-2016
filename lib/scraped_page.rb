@@ -39,6 +39,16 @@ class ScrapedPage
     end
   end
 
+  class OpenURIArchiveStrategy < OpenURIStrategy
+    private
+
+    def response
+      super.tap do |response|
+        # Archiver.new(response).store
+      end
+    end
+  end
+
   def initialize(url:, strategy: ScrapedPage::OpenURIStrategy)
     @url = url
     @strategy = strategy.new(url)
