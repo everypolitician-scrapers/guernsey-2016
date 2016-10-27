@@ -1,4 +1,4 @@
-class Interaction
+class ScrapedPage
   def initialize(url)
     @url = url
   end
@@ -22,5 +22,10 @@ class Interaction
         response.rewind
         body
       end
+  end
+
+  def absolute_url(rel)
+    return if rel.to_s.empty?
+    URI.join(url, URI.encode(URI.decode(rel)))
   end
 end
