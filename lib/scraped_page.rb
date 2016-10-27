@@ -1,32 +1,57 @@
+# frozen_string_literal: true
+require 'nokogiri'
+require 'uri'
+require 'field_serializer'
+require_relative './archived_response'
+
 class ScrapedPage
   include FieldSerializer
 
-  def initialize(url)
+  class Strategy
+    MissingMethodError = Class.new(StandardError)
+
+    def initialize(url)
+      @url = url
+    end
+
+    def body
+      raise MissingMethodError, "Strategy must provide '#body' method to return response body"
+    end
+
+    private
+
+    attr_reader :url
+  end
+
+  class OpenURIStrategy < Strategy
+    def body
+      @body ||=
+        begin
+          body = response.read
+          response.rewind
+          body
+        end
+    end
+
+    private
+
+    def response
+      @response ||= open(url)
+    end
+  end
+
+  def initialize(url:, strategy: ScrapedPage::OpenURIStrategy)
     @url = url
+    @strategy = strategy.new(url)
   end
 
   def noko
-    @noko ||= Nokogiri::HTML(response_body)
+    @noko ||= Nokogiri::HTML(strategy.body)
   end
 
   private
 
-  attr_reader :url
-
-  def response
-    @response ||= open(url).tap do |response|
-      ArchivedResponse.new(response).store
-    end
-  end
-
-  def response_body
-    @response_body ||=
-      begin
-        body = response.read
-        response.rewind
-        body
-      end
-  end
+  attr_reader :url, :strategy
 
   def absolute_url(rel)
     return if rel.to_s.empty?
