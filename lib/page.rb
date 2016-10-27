@@ -10,5 +10,4 @@ class String
 end
 
 class Page < ScrapedPage
-  include FieldSerializer
 end
