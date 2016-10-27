@@ -9,6 +9,7 @@ class String
   end
 end
 
+# TODO: Remove the http interaction logic from this class.
 class Page
   include FieldSerializer
 
