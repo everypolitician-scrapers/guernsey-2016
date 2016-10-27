@@ -2,7 +2,6 @@
 require 'nokogiri'
 require 'uri'
 require 'field_serializer'
-require_relative './archived_response'
 
 class ScrapedPage
   include FieldSerializer
