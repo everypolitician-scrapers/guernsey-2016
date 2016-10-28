@@ -9,7 +9,7 @@ require_rel 'scraped_page'
 class ScrapedPage
   include FieldSerializer
 
-  def initialize(url:, strategy: ScrapedPage::OpenURIStrategy)
+  def initialize(url:, strategy: ScrapedPage::LiveRequestStrategy)
     @url = url
     @strategy = strategy.new(url)
   end

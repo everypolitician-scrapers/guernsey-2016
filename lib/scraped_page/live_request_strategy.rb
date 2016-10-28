@@ -1,5 +1,5 @@
 class ScrapedPage
-  class OpenURIStrategy < Strategy
+  class LiveRequestStrategy < Strategy
     def body
       @body ||=
         begin

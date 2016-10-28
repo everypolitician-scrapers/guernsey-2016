@@ -1,5 +1,5 @@
 class ScrapedPage
-  class OpenURIArchiveStrategy < OpenURIStrategy
+  class LiveRequestArchiveStrategy < LiveRequestStrategy
     private
 
     def response
