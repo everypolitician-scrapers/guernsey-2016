@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=na0bzj05nssqznxe5fu3ayxr; path=/; HttpOnly
+    - ASP.NET_SessionId=x2jni0lvcog4dfysparbseha; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Sat, 29-Oct-2011 07:21:15 GMT; path=/
-    - clientvars=bf8ab7d9-c8d1-4941-8a03-d88861bb9cb2; expires=Mon, 31-Oct-2016 08:21:15
+    - TextOnlyX=; expires=Sun, 30-Oct-2011 06:04:05 GMT; path=/
+    - clientvars=b9538ba1-f03a-4ea2-ad4c-68e1e5e52a6e; expires=Tue, 01-Nov-2016 06:04:05
       GMT; path=/; HttpOnly
-    - mode=0; expires=Sun, 05-Feb-2017 08:21:15 GMT; path=/
+    - mode=0; expires=Mon, 06-Feb-2017 06:04:05 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sat, 29 Oct 2016 07:21:15 GMT
+    - Sun, 30 Oct 2016 06:04:05 GMT
     Location:
     - https://gov.gg/article/153129/David-de-Lisle
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 29 Oct 2016 07:21:15 GMT
+recorded_at: Sun, 30 Oct 2016 06:04:06 GMT
