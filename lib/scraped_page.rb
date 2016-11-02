@@ -2,6 +2,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'field_serializer'
+require 'scraped_page_archive'
 
 # Abstract class which scrapers can extend to implement their functionality.
 class ScrapedPage
@@ -33,6 +34,19 @@ class ScrapedPage
 
       def log(message)
         warn "[#{self.class}] #{message}"
+      end
+    end
+
+    class LiveRequestArchive < LiveRequest
+      def get(url)
+        log "Archiving #{url}"
+        scraped_page_archive.record { super }
+      end
+
+      private
+
+      def scraped_page_archive
+        @scraped_page_archive ||= ScrapedPageArchive.new(ScrapedPageArchive::GitStorage.new)
       end
     end
   end
