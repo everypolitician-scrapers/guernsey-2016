@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 require 'nokogiri'
-require 'uri'
+require 'open-uri'
 require 'field_serializer'
-
-require_rel 'scraped_page'
 
 # Abstract class which scrapers can extend to implement their functionality.
 class ScrapedPage
