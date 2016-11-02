@@ -15,11 +15,11 @@ class String
 end
 
 url = 'https://gov.gg/contactus'
-member_list = AllMembersPage.new(url: url).to_h
+member_list = AllMembersPage.new(url: url, strategy: ScrapedPage::Strategy::LiveRequestArchive.new).to_h
 
 warn "Found #{member_list[:members].count} members"
 
 member_list[:members].shuffle.each do |mem|
-  member = MemberPage.new(url: mem[:url]).to_h
+  member = MemberPage.new(url: mem[:url], strategy: ScrapedPage::Strategy::LiveRequestArchive.new).to_h
   ScraperWiki.save_sqlite([:name], member)
 end
