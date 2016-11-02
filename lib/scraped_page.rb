@@ -23,11 +23,11 @@ class ScrapedPage
       def response(url)
         log "Fetching #{url}"
         response = open(url)
-        Response.new(
+        {
           status:  response.status.first.to_i,
           headers: response.meta,
           body:    response.read
-        )
+        }
       end
 
       private
@@ -65,6 +65,6 @@ class ScrapedPage
   end
 
   def response
-    @response ||= strategy.response(url)
+    @response ||= Response.new(strategy.response(url))
   end
 end
