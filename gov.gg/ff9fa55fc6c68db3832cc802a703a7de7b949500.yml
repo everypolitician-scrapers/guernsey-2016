@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=3f0xsgiifz2vasdlt3pjgxed; path=/; HttpOnly
+    - ASP.NET_SessionId=v1gg3mb5cdos2bccibovqiwv; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 02-Nov-2011 02:28:00 GMT; path=/
-    - clientvars=cd99cb0d-5e68-4170-a434-638a9bde9901; expires=Fri, 04-Nov-2016 02:28:00
+    - TextOnlyX=; expires=Wed, 02-Nov-2011 14:29:09 GMT; path=/
+    - clientvars=0f63d396-55f6-4e76-bb23-45957f6ccabd; expires=Fri, 04-Nov-2016 14:29:09
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 09-Feb-2017 02:28:00 GMT; path=/
+    - mode=0; expires=Thu, 09-Feb-2017 14:29:09 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 02 Nov 2016 02:28:00 GMT
+    - Wed, 02 Nov 2016 14:29:09 GMT
     Location:
     - https://gov.gg/article/153150/Barry-Paint
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 02 Nov 2016 02:28:01 GMT
+recorded_at: Wed, 02 Nov 2016 14:29:09 GMT
