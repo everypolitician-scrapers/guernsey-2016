@@ -9,21 +9,44 @@ require_rel 'scraped_page'
 class ScrapedPage
   include FieldSerializer
 
-  def initialize(url:, strategy: ScrapedPage::LiveRequestStrategy)
-    @url = url
-    @strategy = strategy.new(url)
+  class Response
+    attr_reader :status, :headers, :body
+
+    def initialize(body:, status: 200, headers: {})
+      @status = status
+      @headers = headers
+      @body = body
+    end
   end
 
-  def noko
-    @noko ||= Nokogiri::HTML(strategy.body)
+  module Strategy
+    class LiveRequest
+      def get(url)
+        warn url
+        response = open(url)
+        Response.new(
+          status:  response.status.first.to_i,
+          headers: response.meta,
+          body:    response.read
+        )
+      end
+    end
+  end
+
+  def initialize(url:, strategy: Strategy::LiveRequest.new)
+    @url = url
+    @strategy = strategy
   end
 
   private
 
   attr_reader :url, :strategy
 
-  def absolute_url(rel)
-    return if rel.to_s.empty?
-    URI.join(url, URI.encode(URI.decode(rel)))
+  def noko
+    @noko ||= Nokogiri::HTML(response.body)
+  end
+
+  def response
+    @response ||= strategy.get(url)
   end
 end
