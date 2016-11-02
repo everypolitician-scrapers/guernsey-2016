@@ -20,13 +20,19 @@ class ScrapedPage
   module Strategy
     class LiveRequest
       def get(url)
-        warn url
+        log "Fetching #{url}"
         response = open(url)
         Response.new(
           status:  response.status.first.to_i,
           headers: response.meta,
           body:    response.read
         )
+      end
+
+      private
+
+      def log(message)
+        warn "[#{self.class}] #{message}"
       end
     end
   end
