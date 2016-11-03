@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require_relative './scraped_page'
+require 'scraped_page'
 
 class AllMembersPage < ScrapedPage
   field :members do
