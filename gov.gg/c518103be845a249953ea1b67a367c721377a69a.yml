@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=ufnvdfwbzpkzcqgob3qrlob3; path=/; HttpOnly
+    - ASP.NET_SessionId=u3ulz2pazfb5p5bbhpgq3d5k; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 03-Nov-2011 16:34:19 GMT; path=/
-    - clientvars=d72b88df-6c1b-45b6-968f-09d82cb6beb3; expires=Sat, 05-Nov-2016 16:34:19
+    - TextOnlyX=; expires=Thu, 03-Nov-2011 18:49:01 GMT; path=/
+    - clientvars=37578e4b-7bf8-47c0-83a1-1d9aaf6e57ed; expires=Sat, 05-Nov-2016 18:49:01
       GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 10-Feb-2017 16:34:19 GMT; path=/
+    - mode=0; expires=Fri, 10-Feb-2017 18:49:01 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 03 Nov 2016 16:34:19 GMT
+    - Thu, 03 Nov 2016 18:49:01 GMT
     Location:
     - https://gov.gg/article/156747/Neil-Inder
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 03 Nov 2016 16:34:20 GMT
+recorded_at: Thu, 03 Nov 2016 18:49:02 GMT
