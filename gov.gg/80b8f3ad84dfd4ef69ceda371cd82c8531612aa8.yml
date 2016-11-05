@@ -14,22 +14,25 @@ request:
     - Ruby
 response:
   status:
-    code: 302
-    message: Found
+    code: 301
+    message: Moved Permanently
   headers:
     Connection:
     - Keep-Alive
     Set-Cookie:
+    - ASP.NET_SessionId=afickutm1k4y5ikvmgms21oo; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
+    - TextOnlyX=; expires=Sat, 05-Nov-2011 04:39:39 GMT; path=/
+    - clientvars=29d0c69b-c1cf-4f0a-8f36-bd1549798d37; expires=Mon, 07-Nov-2016 04:39:39
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Sun, 12-Feb-2017 04:39:39 GMT; path=/
     Content-Length:
-    - '169'
+    - '0'
     Date:
-    - Thu, 03 Nov 2016 23:58:53 GMT
+    - Sat, 05 Nov 2016 04:39:38 GMT
     Location:
-    - "/html/ErrorPageCustom.html?aspxerrorpath=/index.aspx"
-    Content-Type:
-    - text/html; charset=utf-8
+    - https://gov.gg/article/153128/Emilie-Yerby
     Server:
     - Microsoft-IIS/7.5
     Cache-Control:
@@ -39,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 03 Nov 2016 23:58:53 GMT
+recorded_at: Sat, 05 Nov 2016 04:39:40 GMT
