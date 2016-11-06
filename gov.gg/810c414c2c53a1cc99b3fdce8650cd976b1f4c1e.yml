@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=3z2qf431qeqylsbkp55lrrbg; path=/; HttpOnly
+    - ASP.NET_SessionId=jf0fprxzkfpjx2rgexynmd3k; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Sat, 05-Nov-2011 04:37:29 GMT; path=/
-    - clientvars=1d0a9c14-5151-4a72-88d6-fb47d420b0d1; expires=Mon, 07-Nov-2016 04:37:29
+    - TextOnlyX=; expires=Sun, 06-Nov-2011 17:40:29 GMT; path=/
+    - clientvars=1ad8c392-4858-4a1f-b3a5-30385bdb042a; expires=Tue, 08-Nov-2016 17:40:29
       GMT; path=/; HttpOnly
-    - mode=0; expires=Sun, 12-Feb-2017 04:37:29 GMT; path=/
+    - mode=0; expires=Mon, 13-Feb-2017 17:40:29 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sat, 05 Nov 2016 04:37:28 GMT
+    - Sun, 06 Nov 2016 17:40:29 GMT
     Location:
     - https://gov.gg/article/153124/Robert-Prow
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 05 Nov 2016 04:37:29 GMT
+recorded_at: Sun, 06 Nov 2016 17:40:30 GMT
