@@ -8,7 +8,7 @@ class MemberPage < Page
   end
 
   field :area do
-    noko.xpath("id('Breadcrumb')/li")[-2]
+    noko.xpath("id('Breadcrumb')/li[last() - 1]")
         .text
         .sub('Representatives', '')
         .tidy
