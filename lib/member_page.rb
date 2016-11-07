@@ -10,7 +10,7 @@ class MemberPage < Page
   field :area do
     noko.xpath("id('Breadcrumb')/li")[-2]
         .text
-        .sub('Representatives', 'Representative')
+        .sub('Representatives', '')
         .tidy
   end
 
