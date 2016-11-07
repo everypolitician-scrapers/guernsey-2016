@@ -8,7 +8,7 @@ class MemberPage < Page
   end
 
   field :area do
-    noko.xpath("id('Breadcrumb')/li[5]/a").text.tidy
+    noko.xpath("id('Breadcrumb')/li")[-2].text.tidy
   end
 
   field :party do
