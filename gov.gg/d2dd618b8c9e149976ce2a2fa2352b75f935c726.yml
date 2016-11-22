@@ -1,0 +1,45 @@
+---
+request:
+  method: get
+  uri: https://gov.gg/index.aspx?articleid=153553
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Connection:
+    - Keep-Alive
+    Set-Cookie:
+    - ASP.NET_SessionId=fzzhczmlegym054iarzjwp43; path=/; HttpOnly
+    - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
+      HttpOnly; Path=/
+    - TextOnlyX=; expires=Tue, 22-Nov-2011 10:20:52 GMT; path=/
+    - clientvars=871ed1ee-ecf4-42aa-8a5d-73126e06fd43; expires=Thu, 24-Nov-2016 10:20:52
+      GMT; path=/; HttpOnly
+    - mode=0; expires=Wed, 01-Mar-2017 10:20:52 GMT; path=/
+    Content-Length:
+    - '0'
+    Date:
+    - Tue, 22 Nov 2016 10:20:52 GMT
+    Location:
+    - https://gov.gg/article/153151/Mark-Dorey
+    Server:
+    - Microsoft-IIS/7.5
+    Cache-Control:
+    - private
+    X-Powered-By:
+    - ASP.NET
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Tue, 22 Nov 2016 10:20:53 GMT
