@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'scraped_page'
+require 'scraped'
 
-class MemberPage < ScrapedPage
+class MemberPage < Scraped
   field :name do
     noko.xpath("id('CenterContainer')/h1").text.tidy
   end
