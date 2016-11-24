@@ -2,19 +2,24 @@
 # encoding: utf-8
 require 'require_all'
 # require 'open-uri/cached'
-require 'scraped_page_archive/open-uri'
 # OpenURI::Cache.cache_path = '.cache'
 require 'scraperwiki'
+require 'pry'
 
 require_rel 'lib'
 
+class String
+  def tidy
+    gsub(/[[:space:]]+/, ' ').strip
+  end
+end
 
 url = 'https://gov.gg/contactus'
-member_list = AllMembersPage.new(url).to_h
+member_list = AllMembersPage.new(response: Scraped::Request.new(url: url).response).to_h
 
 warn "Found #{member_list[:members].count} members"
 
 member_list[:members].shuffle.each do |mem|
-  member = MemberPage.new(mem[:url]).to_h
+  member = MemberPage.new(response: Scraped::Request.new(url: mem[:url]).response).to_h
   ScraperWiki.save_sqlite([:name], member)
 end
