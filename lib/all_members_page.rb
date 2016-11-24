@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'scraped'
 
-class AllMembersPage < Scraped
+class AllMembersPage < Scraped::HTML
   field :members do
     member_nodes.drop(1).map do |mem|
       {

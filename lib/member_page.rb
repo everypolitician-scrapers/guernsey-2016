@@ -2,7 +2,7 @@
 
 require 'scraped'
 
-class MemberPage < Scraped
+class MemberPage < Scraped::HTML
   field :name do
     noko.xpath("id('CenterContainer')/h1").text.tidy
   end
