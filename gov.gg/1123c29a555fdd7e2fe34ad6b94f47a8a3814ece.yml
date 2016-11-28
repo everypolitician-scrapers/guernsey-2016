@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=a4ibppdhiuuzbbyfjfeycezk; path=/; HttpOnly
+    - ASP.NET_SessionId=1lygwoxvghjjsjul51nchb40; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Sun, 27-Nov-2011 19:22:42 GMT; path=/
-    - clientvars=847a29ef-70eb-4ffe-9493-a002c07183bf; expires=Tue, 29-Nov-2016 19:22:42
+    - TextOnlyX=; expires=Mon, 28-Nov-2011 01:33:31 GMT; path=/
+    - clientvars=82db33df-c845-4261-a8b0-3e86f1981613; expires=Wed, 30-Nov-2016 01:33:31
       GMT; path=/; HttpOnly
-    - mode=0; expires=Mon, 06-Mar-2017 19:22:42 GMT; path=/
+    - mode=0; expires=Tue, 07-Mar-2017 01:33:31 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sun, 27 Nov 2016 19:22:42 GMT
+    - Mon, 28 Nov 2016 01:33:30 GMT
     Location:
     - https://gov.gg/article/153135/Jeremy-Smithies
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 27 Nov 2016 19:22:43 GMT
+recorded_at: Mon, 28 Nov 2016 01:33:32 GMT
