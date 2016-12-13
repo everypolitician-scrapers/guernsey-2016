@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=5rkb5c3qt52nlrvziit0h3kv; path=/; HttpOnly
+    - ASP.NET_SessionId=wukjqtt5onjrxajflewgvmyh; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 12-Dec-2011 08:14:41 GMT; path=/
-    - clientvars=af0dba5e-5d1e-4cca-b23f-e1a26adf5646; expires=Wed, 14-Dec-2016 08:14:41
+    - TextOnlyX=; expires=Tue, 13-Dec-2011 21:29:13 GMT; path=/
+    - clientvars=efc59251-7b2d-42d2-84bc-ae0144cfcc3b; expires=Thu, 15-Dec-2016 21:29:13
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 21-Mar-2017 08:14:41 GMT; path=/
+    - mode=0; expires=Wed, 22-Mar-2017 21:29:13 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 12 Dec 2016 08:14:41 GMT
+    - Tue, 13 Dec 2016 21:29:13 GMT
     Location:
     - https://gov.gg/article/153122/Lindsay-De-Sausmarez
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 12 Dec 2016 08:14:41 GMT
+recorded_at: Tue, 13 Dec 2016 21:29:14 GMT
