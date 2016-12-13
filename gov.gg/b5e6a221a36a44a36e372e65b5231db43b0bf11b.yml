@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=hxl1s3ugzniaapbyhluubeu5; path=/; HttpOnly
+    - ASP.NET_SessionId=qbpu0xcgxthqm2efzifzast0; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 12-Dec-2011 08:13:56 GMT; path=/
-    - clientvars=6378410e-a2ae-4cc8-accb-b346665c124f; expires=Wed, 14-Dec-2016 08:13:56
+    - TextOnlyX=; expires=Tue, 13-Dec-2011 21:27:40 GMT; path=/
+    - clientvars=772acf52-f961-4b88-96d8-902971539747; expires=Thu, 15-Dec-2016 21:27:40
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 21-Mar-2017 08:13:56 GMT; path=/
+    - mode=0; expires=Wed, 22-Mar-2017 21:27:40 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 12 Dec 2016 08:13:55 GMT
+    - Tue, 13 Dec 2016 21:27:39 GMT
     Location:
     - https://gov.gg/article/153126/Al-Brouard
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 12 Dec 2016 08:13:57 GMT
+recorded_at: Tue, 13 Dec 2016 21:27:41 GMT
