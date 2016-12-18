@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=ylje5jr5bjwukpd25ivgqxnc; path=/; HttpOnly
+    - ASP.NET_SessionId=cu0nquc55sfuw1x1f5l2fgc5; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Fri, 16-Dec-2011 08:26:23 GMT; path=/
-    - clientvars=f83675af-ecad-4f0c-8c8a-9359949f713e; expires=Sun, 18-Dec-2016 08:26:23
+    - TextOnlyX=; expires=Sun, 18-Dec-2011 17:45:39 GMT; path=/
+    - clientvars=48bd302f-6179-4370-b941-ad28376c3ef6; expires=Tue, 20-Dec-2016 17:45:39
       GMT; path=/; HttpOnly
-    - mode=0; expires=Sat, 25-Mar-2017 08:26:23 GMT; path=/
+    - mode=0; expires=Mon, 27-Mar-2017 16:45:39 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Fri, 16 Dec 2016 08:26:22 GMT
+    - Sun, 18 Dec 2016 17:45:38 GMT
     Location:
     - https://gov.gg/article/153158/Louis-Emile-Jean
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 16 Dec 2016 08:26:24 GMT
+recorded_at: Sun, 18 Dec 2016 17:45:40 GMT
