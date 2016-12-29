@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=hyk0a2fvciumydk0bjuefotu; path=/; HttpOnly
+    - ASP.NET_SessionId=as1lcqgynnccexslijiqp5cl; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 28-Dec-2011 16:36:25 GMT; path=/
-    - clientvars=74be89b9-f0fa-463d-80f2-ce3674c2d0c9; expires=Fri, 30-Dec-2016 16:36:25
+    - TextOnlyX=; expires=Thu, 29-Dec-2011 00:54:53 GMT; path=/
+    - clientvars=0519ff93-966f-4271-9a7c-daa4caf3ea0f; expires=Sat, 31-Dec-2016 00:54:53
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 06-Apr-2017 15:36:25 GMT; path=/
+    - mode=0; expires=Thu, 06-Apr-2017 23:54:53 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 28 Dec 2016 16:36:25 GMT
+    - Thu, 29 Dec 2016 00:54:53 GMT
     Location:
     - https://gov.gg/article/153152/Jonathan-Le-Tocq
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 28 Dec 2016 16:36:26 GMT
+recorded_at: Thu, 29 Dec 2016 00:54:54 GMT
