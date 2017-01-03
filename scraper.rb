@@ -16,5 +16,5 @@ warn "Found #{member_list[:members].count} members"
 
 member_list[:members].shuffle.each do |mem|
   member = MemberPage.new(mem[:url]).to_h
-  ScraperWiki.save_sqlite([:name], member)
+  ScraperWiki.save_sqlite([:name], member) unless member[:name].empty?
 end
