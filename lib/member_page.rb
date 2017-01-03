@@ -15,7 +15,7 @@ class MemberPage < Page
   end
 
   field :party do
-    "Independent"
+    'Independent'
   end
 
   field :address do
@@ -27,8 +27,8 @@ class MemberPage < Page
 
   field :email do
     noko.xpath('//p/a[contains(@href, "mailto:")]/@href').text
-                                                         .gsub('mailto:','')
-                                                         .tidy
+        .gsub('mailto:', '')
+        .tidy
   end
 
   field :website do

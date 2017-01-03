@@ -1,5 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
+# frozen_string_literal: true
 require 'require_all'
 # require 'open-uri/cached'
 require 'scraped_page_archive/open-uri'
@@ -7,7 +8,6 @@ require 'scraped_page_archive/open-uri'
 require 'scraperwiki'
 
 require_rel 'lib'
-
 
 url = 'https://gov.gg/contactus'
 member_list = AllMembersPage.new(url).to_h
