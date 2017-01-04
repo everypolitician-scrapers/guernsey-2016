@@ -15,6 +15,11 @@ member_list = AllMembersPage.new(response: Scraped::Request.new(url: url).respon
 warn "Found #{member_list.size} members"
 
 member_list.shuffle.each do |mem|
-  member = MemberPage.new(response: Scraped::Request.new(url: mem[:url]).response)
+  response = Scraped::Request.new(url: mem[:url]).response
+  if response.status != 200
+    warn "Got response status #{response.status} from #{response.url}. Skipping"
+    next
+  end
+  member = MemberPage.new(response: response)
   ScraperWiki.save_sqlite([:name], member.to_h)
 end
