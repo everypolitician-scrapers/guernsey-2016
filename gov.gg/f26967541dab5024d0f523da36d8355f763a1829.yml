@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=rsjfo5olv0zd0beqluvk5gnc; path=/; HttpOnly
+    - ASP.NET_SessionId=5xxmmbatfwvzoqp2srweomv3; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 05-Jan-2012 09:39:14 GMT; path=/
-    - clientvars=7851c60e-fc17-4842-b0e4-d19f21a0fcc3; expires=Sat, 07-Jan-2017 09:39:13
+    - TextOnlyX=; expires=Fri, 06-Jan-2012 18:59:20 GMT; path=/
+    - clientvars=04299ca1-98c2-4d25-b808-085f5d2182c1; expires=Sun, 08-Jan-2017 18:59:20
       GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 14-Apr-2017 08:39:14 GMT; path=/
+    - mode=0; expires=Sat, 15-Apr-2017 17:59:20 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 05 Jan 2017 09:39:14 GMT
+    - Fri, 06 Jan 2017 18:59:20 GMT
     Location:
     - https://gov.gg/article/153116/Lyndon-Trott
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 05 Jan 2017 09:39:14 GMT
+recorded_at: Fri, 06 Jan 2017 18:59:21 GMT
