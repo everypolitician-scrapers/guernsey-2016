@@ -105,13 +105,13 @@
                         <p id="logoText">Information and public services for the Island of Guernsey</p>   
 
                         <div id="iconContainer">
-                            <span class="icon-NewsIcon noselect" data-feed="newsFeedContainer"></span>
-                            <span class="icon-guernsey-box noselect" data-feed="eventFeedContainer"></span>
-                            <span class="icon-recycle noselect" data-feed="recycleFeedContainer"></span>
-                            <span class="icon-weather noselect" data-feed="weatherContainer"><span>Today</span></span>
-                            <span class="icon-boat noselect" data-feed="harboursFeedContainer"></span>
-                            <span class="icon-plane noselect" data-feed="airportFeedContainer"></span>                                
-                            <span class="icon-GoogleTranslate noselect" data-feed="translateFeedContainer"></span>
+                            <span class="icon-NewsIcon noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'News');" data-feed="newsFeedContainer"></span>
+                            <span class="icon-guernsey-box noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Map');" data-feed="eventFeedContainer"></span>
+                            <span class="icon-recycle noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Recycle');" data-feed="recycleFeedContainer"></span>
+                            <span class="icon-weather noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Weather');" data-feed="weatherContainer"><span>Today</span></span>
+                            <span class="icon-boat noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Sailings');" data-feed="harboursFeedContainer"></span>
+                            <span class="icon-plane noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Flights');" data-feed="airportFeedContainer"></span>                                
+                            <span class="icon-GoogleTranslate noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Translate');" data-feed="translateFeedContainer"></span>
                         </div>
 
                         <div id="feedContainer">
@@ -123,31 +123,31 @@
 
                             
                                       
-                                <h5>Pre-school entitlement - uptake figures</h5>
-                                <span class="newsDate">Tuesday 10 January 2017</span>
+                                <h5>Statement on behalf of Committee for Education, Sport &amp; Culture</h5>
+                                <span class="newsDate">Friday 13 January 2017</span>
                                     
-                                            <p>The Committee for Education, Sport &amp; Culture has noted that a range of statistics have been quoted recently about the introduction of a universal entitlement to 15 hours of free pre-school education for all three to four year olds in the year before they start school. </p>
+                                            <p>The Committee for Education, Sport &amp; Culture is reassuring education staff and professional associations that it will be seeking their views on options for the future structure of secondary and post-16 education. </p>
                                          
-                                <a href="https://gov.gg/article/157656/Pre-school-entitlement---uptake-figures">Read more</a>
+                                <a href="https://gov.gg/article/157739/Statement-on-behalf-of-Committee-for-Education-Sport--Culture" onclick="ga('send', 'event', 'News Item', 'Click', 'Statement on behalf of Committee for Education, Sport &amp; Culture');">Read more</a>
                             
                                       
-                                <h5>Public feedback wanted on temporary Christmas parking arrangements</h5>
-                                <span class="newsDate">Friday 30 December 2016</span>
+                                <h5>Improved parking arrangements at The Albany for Blue Badge Holders</h5>
+                                <span class="newsDate">Wednesday 11 January 2017</span>
                                     
-                                            <p>Following the introduction of extended weekday disc parking time limits (2hr to 3hr) and a Saturday derestriction of parking at North Beach, Crown and Albert Piers over the festive season, feedback is being sought from all who have taken advantage of this initiative.</p>
+                                            <p>The existing accessible parking space at The Albany is now available twenty four hours a day. Previously the space only reverted to accessible parking outside of unloading times at certain times of the day. </p>
                                          
-                                <a href="https://gov.gg/article/157484/Public-feedback-wanted-on-temporary-Christmas-parking-arrangements">Read more</a>
+                                <a href="https://gov.gg/article/157711/Improved-parking-arrangements-at-The-Albany-for-Blue-Badge-Holders" onclick="ga('send', 'event', 'News Item', 'Click', 'Improved parking arrangements at The Albany for Blue Badge Holders');">Read more</a>
                             
                                       
-                                <h5>Cornet Street raised table</h5>
-                                <span class="newsDate">Thursday 29 December 2016</span>
+                                <h5>Highest Annual Scheduled Bus Passenger Numbers in over 20 years</h5>
+                                <span class="newsDate">Wednesday 11 January 2017</span>
                                     
-                                            <p>Following a successful trial the new raised table located at the bottom of Cornet Street has become a permanent feature in legislation. </p>
+                                            <p>A total of 1,653,728 people travelled on scheduled bus services during 2016, representing an increase of 146,927 passengers when compared with 2015. </p>
                                          
-                                <a href="https://gov.gg/article/157460/Cornet-Street-raised-table">Read more</a>
+                                <a href="https://gov.gg/article/157709/Highest-Annual-Scheduled-Bus-Passenger-Numbers-in-over-20-years" onclick="ga('send', 'event', 'News Item', 'Click', 'Highest Annual Scheduled Bus Passenger Numbers in over 20 years');">Read more</a>
                             
                             
-                            <a href="https://gov.gg/news" class="newsAll">All News</a>
+                            <a href="https://gov.gg/news" onclick="ga('send', 'event', 'News Link', 'Click', 'All News');" class="newsAll">All News</a>
                             
                             </div>
                             <div id="eventFeedContainer">Coming soon – a map of events, hazards and other useful information</div>
@@ -157,44 +157,44 @@
                                 
                                 
                                 
-                                    <a style="clear:both; font-size: 0.6em;" href="https://gov.gg/recycling">Recycling</a>
+                                    <a style="clear:both; font-size: 0.6em;" onclick="ga('send', 'event', 'Recycle Link', 'Click', 'Recycling');" href="https://gov.gg/recycling">Recycling</a>
                                 
                             </div>
-                            <div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/h.svg" alt="weather icon" /><span id="weatherSummary">Fair or sunny periods, with a risk of a
-shower. Becoming cloudy overnight with outbreaks of rain by
-dawn.</span></div><span id="highTemp"><span>High</span>11&deg;C</span><span id="lowTemp"><span>Low</span>6&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate in rain
-later.</span><span id="openSeas"><span>Open Seas</span>Moderate to rather rough with a low
-swell.</span><span id="wind"><span>Wind</span>Northwesterly moderate fresh F5 to strong F6,
-backing westerly moderate F4 to fresh F5
-overnight.</span></div><br style="clear:both;" /><a href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a href="https://gov.gg/tides">Tide timetables</a></div><div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/h.svg" alt="weather icon" /><span id="weatherSummary">Fair or sunny periods, with a risk of a
-shower. Becoming cloudy overnight with outbreaks of rain by
-dawn.</span></div><span id="highTemp"><span>High</span>11&deg;C</span><span id="lowTemp"><span>Low</span>6&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate in rain
-later.</span><span id="openSeas"><span>Open Seas</span>Moderate to rather rough with a low
-swell.</span><span id="wind"><span>Wind</span>Northwesterly moderate fresh F5 to strong F6,
-backing westerly moderate F4 to fresh F5
-overnight.</span></div><br style="clear:both;" /><a href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a href="https://gov.gg/tides">Tide timetables</a></div>
+                            <div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Fair or sunny periods. Risk of showers
+especially this evening. Becoming cloudy overnight with
+perhaps rain by morning.</span></div><span id="highTemp"><span>High</span>9&deg;C</span><span id="lowTemp"><span>Low</span>6&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate in showers and
+in rain later.</span><span id="openSeas"><span>Open Seas</span>Moderate to rather
+rough.</span><span id="wind"><span>Wind</span>Northwest fresh F5, occasionally strong F6,
+with gusts to 40mph, veering northerly moderate F4 to fresh
+F5 overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div><div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Fair or sunny periods. Risk of showers
+especially this evening. Becoming cloudy overnight with
+perhaps rain by morning.</span></div><span id="highTemp"><span>High</span>9&deg;C</span><span id="lowTemp"><span>Low</span>6&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate in showers and
+in rain later.</span><span id="openSeas"><span>Open Seas</span>Moderate to rather
+rough.</span><span id="wind"><span>Wind</span>Northwest fresh F5, occasionally strong F6,
+with gusts to 40mph, veering northerly moderate F4 to fresh
+F5 overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div>
                             <div id="harboursFeedContainer">
-                            <br /><br /><h4>Arrival</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:28%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>From</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Arrived</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>B Gas Linda&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vlissingen&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>17:30&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>&nbsp;</font></td></tr></table><br /> <br /><h4>Departure</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:27%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>To</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Departed</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>Huelin Dispatch&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Southampton&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>15:00&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>&nbsp;</font></td></tr></table>  
+                            <br /><br /><h4>Arrival</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:28%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>From</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Arrived</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>Commodore Clipper&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Portsmouth&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>16:00&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>&nbsp;</font></td></tr></table><br /> <br /><h4>Departure</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:27%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>To</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Departed</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>Commodore Clipper&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Jersey/Portsmouth&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>17:20&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>&nbsp;</font></td></tr></table>  
                             
                             
                             
                             
                                 
-                                    <a href="https://gov.gg/article/100192/Arrivals--Departures" target="_blank">All arrivals and departures</a>
-                                    <a href="https://gov.gg/article/120608/Shipping-Forecast">Shipping forecast</a>
+                                    <a href="https://gov.gg/article/100192/Arrivals--Departures" onclick="ga('send', 'event', 'Sailings Link', 'Click', 'All arrivals and departures');" target="_blank">All arrivals and departures</a>
+                                    <a href="https://gov.gg/article/120608/Shipping-Forecast" onclick="ga('send', 'event', 'Sailings Link', 'Click', 'Shipping forecast');">Shipping forecast</a>
                                 
                             </div>
-                            <div id="airportFeedContainer"><br /><br /><h4>Arrival</h4><br /><table id="airarrivals"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">From</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline aurigny">Aurigny</span></td><td>15:05</td><td>2017-01-11</td><td><span class="location dinard">Dinard</span></td><td><span class="number gr125">GR125</span></td><td></td></tr></table><br /> <br /><h4>Departure</h4><br /><table id="airdepartures"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">To</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline aurigny">Aurigny</span></td><td>15:40</td><td>2017-01-11</td><td><span class="location alderney">Alderney</span></td><td><span class="number gr266">GR266</span></td><td>Check In Open ,Go To Departure Lounge</td></tr></table>
-                                <a href="https://www.airport.gg/arrivals-departures" target="_blank">All arrivals and departures</a>
+                            <div id="airportFeedContainer"><br /><br /><h4>Arrival</h4><br /><table id="airarrivals"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">From</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline aurigny">Aurigny</span></td><td>15:20</td><td>2017-01-14</td><td><span class="location alderney">Alderney</span></td><td><span class="number gr261">GR261</span></td><td>Approx 1520</td></tr></table><br /> <br /><h4>Departure</h4><br /><table id="airdepartures"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">To</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline aurigny">Aurigny</span></td><td>15:40</td><td>2017-01-14</td><td><span class="location alderney">Alderney</span></td><td><span class="number gr266">GR266</span></td><td>Check In Open ,Go To Departure Lounge</td></tr></table>
+                                <a href="https://www.airport.gg/arrivals-departures" onclick="ga('send', 'event', 'Flights Link', 'Click', 'All arrivals and departures');" target="_blank">All arrivals and departures</a>
                             </div>
                             
                                 <div id="translateFeedContainer">
                                     <ul class="translation-links">
-                                      <li><a href="#" class="french" data-lang="French"><img src="./govgg1/images/france.gif" alt="French" /></a></li>
-                                      <li><a href="#" class="german" data-lang="German"><img src="./govgg1/images/germany.gif" alt="German" /></a></li>
-                                      <li><a href="#" class="portuguese" data-lang="Portuguese"><img src="./govgg1/images/portugal.gif" alt="Portuguese" /></a></li>
-                                      <li><a href="#" class="lavtian" data-lang="Latvian"><img src="./govgg1/images/latvia.gif" alt="Lavtian" /></a></li>
-                                      <li><a href="#" class="polish" data-lang="Polish"><img src="./govgg1/images/poland.gif" alt="Poland" /></a></li>
+                                      <li><a href="#" onclick="ga('send', 'event', 'Translate Link', 'Click', 'French');" class="french" data-lang="French"><img src="./govgg1/images/france.gif" alt="French" /></a></li>
+                                      <li><a href="#" onclick="ga('send', 'event', 'Translate Link', 'Click', 'German');" class="german" data-lang="German"><img src="./govgg1/images/germany.gif" alt="German" /></a></li>
+                                      <li><a href="#" onclick="ga('send', 'event', 'Translate Link', 'Click', 'Portuguese');" class="portuguese" data-lang="Portuguese"><img src="./govgg1/images/portugal.gif" alt="Portuguese" /></a></li>
+                                      <li><a href="#" onclick="ga('send', 'event', 'Translate Link', 'Click', 'Lavtian');" class="lavtian" data-lang="Latvian"><img src="./govgg1/images/latvia.gif" alt="Lavtian" /></a></li>
+                                      <li><a href="#" onclick="ga('send', 'event', 'Translate Link', 'Click', 'Polish');" class="polish" data-lang="Polish"><img src="./govgg1/images/poland.gif" alt="Poland" /></a></li>
                                     </ul>
                                     <div id="google_translate_element"></div>
                                 </div>
@@ -314,7 +314,7 @@ overnight.</span></div><br style="clear:both;" /><a href="https://gov.gg/article
     </li><li>
         <a href="https://gov.gg/article/119655/Imports-Exports-Immigration-and-Emigration">Imports, Exports, Immigration and Emigration</a>
     </li><li>
-        <a href="https://gov.gg/article/119652/Health-Social-Care-and-Community-Safety" title="Health, Social Care and Community Safety">Health, Social Care and Community Safety</a>
+        <a href="https://gov.gg/article/119652/Health-Social-Care-and-Community-Safety">Health, Social Care and Community Safety</a>
     </li><li>
         <a href="https://gov.gg/article/119653/Education-Environment-Culture-and-Leisure">Education, Environment, Culture and Leisure</a>
     </li>
