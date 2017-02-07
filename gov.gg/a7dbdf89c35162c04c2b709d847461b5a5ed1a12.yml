@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=ckgmq0jq15gxw4iftwi4qwdy; path=/; HttpOnly
+    - ASP.NET_SessionId=55da1a1slc52bsas0ukvcueu; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 06-Feb-2012 20:29:20 GMT; path=/
-    - clientvars=4e8c678b-e76a-43a5-9aae-8347a57417c7; expires=Wed, 08-Feb-2017 20:29:20
+    - TextOnlyX=; expires=Tue, 07-Feb-2012 21:02:14 GMT; path=/
+    - clientvars=425458e5-48dd-4f3c-b68f-e460bcbfc2d1; expires=Thu, 09-Feb-2017 21:02:14
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 16-May-2017 19:29:20 GMT; path=/
+    - mode=0; expires=Wed, 17-May-2017 20:02:14 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 06 Feb 2017 20:29:20 GMT
+    - Tue, 07 Feb 2017 21:02:14 GMT
     Location:
     - https://gov.gg/article/153134/Laurie-Queripel
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 06 Feb 2017 20:29:20 GMT
+recorded_at: Tue, 07 Feb 2017 21:02:15 GMT
