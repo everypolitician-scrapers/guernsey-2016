@@ -20,17 +20,16 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=scjb3nxflnrbrd0jbjciewuk; path=/; HttpOnly
+    - ASP.NET_SessionId=kesaxkrhwk44yquq54ol1hu5; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 16-Feb-2012 23:19:15 GMT; path=/
-    - clientvars=80d03a02-28f5-4daa-9f10-358072b5314b; expires=Sat, 18-Feb-2017 23:19:15
-      GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 26-May-2017 22:19:15 GMT; path=/
+    - TextOnlyX=; expires=Sat, 18-Feb-2012 03:11:08 GMT; path=/
+    - clientvars=682ae07a-37ba-4835-b743-ae511e380400; path=/; HttpOnly
+    - mode=0; expires=Sun, 28-May-2017 02:11:08 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 16 Feb 2017 23:19:14 GMT
+    - Sat, 18 Feb 2017 03:11:07 GMT
     Location:
     - https://gov.gg/article/153139/Dawn-Tindall
     Server:
@@ -42,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 16 Feb 2017 23:19:15 GMT
+recorded_at: Sat, 18 Feb 2017 03:11:10 GMT
