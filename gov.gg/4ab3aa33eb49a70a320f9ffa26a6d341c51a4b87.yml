@@ -20,17 +20,16 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=2iptql1k0h2xzg5zyjvmd1rz; path=/; HttpOnly
+    - ASP.NET_SessionId=wgrc3iyft5uzlcrls04knf23; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 16-Feb-2012 23:20:53 GMT; path=/
-    - clientvars=0eb1de7e-12c0-4d9c-a9ce-59235a25d5e0; expires=Sat, 18-Feb-2017 23:20:53
-      GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 26-May-2017 22:20:53 GMT; path=/
+    - TextOnlyX=; expires=Sat, 18-Feb-2012 03:14:22 GMT; path=/
+    - clientvars=e426f584-a417-4517-b382-e1dec68e85df; path=/; HttpOnly
+    - mode=0; expires=Sun, 28-May-2017 02:14:22 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 16 Feb 2017 23:20:53 GMT
+    - Sat, 18 Feb 2017 03:14:22 GMT
     Location:
     - https://gov.gg/article/153143/Charles-Parkinson
     Server:
@@ -42,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 16 Feb 2017 23:20:53 GMT
+recorded_at: Sat, 18 Feb 2017 03:14:24 GMT
