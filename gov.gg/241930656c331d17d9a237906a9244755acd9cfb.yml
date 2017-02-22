@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=jyvmg1ca4mrxbfpucef0gjwa; path=/; HttpOnly
+    - ASP.NET_SessionId=gjw5g24aausi5nyjhhcd4lnn; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Tue, 21-Feb-2012 05:01:59 GMT; path=/
-    - clientvars=d4f56ec4-4e9b-422b-ba0b-c1684f1eb96d; expires=Thu, 23-Feb-2017 05:01:59
+    - TextOnlyX=; expires=Wed, 22-Feb-2012 18:30:02 GMT; path=/
+    - clientvars=c34cf68f-2d86-4b86-94e7-4b4ecbdb1588; expires=Fri, 24-Feb-2017 18:30:02
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 31-May-2017 04:01:59 GMT; path=/
+    - mode=0; expires=Thu, 01-Jun-2017 17:30:02 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 21 Feb 2017 05:01:58 GMT
+    - Wed, 22 Feb 2017 18:30:02 GMT
     Location:
     - https://gov.gg/article/153136/Sarah-Hansmann-Rouxel
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 21 Feb 2017 05:02:05 GMT
+recorded_at: Wed, 22 Feb 2017 18:30:11 GMT
