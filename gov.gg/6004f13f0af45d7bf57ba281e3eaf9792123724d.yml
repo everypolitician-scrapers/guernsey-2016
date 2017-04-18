@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=tq0vjdbq0vqb2nbdv0uaxvxv; path=/; HttpOnly
+    - ASP.NET_SessionId=rvcdmv4vzfjlxfpkl4hyrc0x; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Tue, 17-Apr-2012 08:50:55 GMT; path=/
-    - clientvars=612c85f3-6d10-4f43-b280-b774b427cf76; expires=Wed, 19-Apr-2017 08:50:55
+    - TextOnlyX=; expires=Wed, 18-Apr-2012 10:49:30 GMT; path=/
+    - clientvars=35cd430e-82b2-4eb1-8495-603ccadd99de; expires=Thu, 20-Apr-2017 10:49:30
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 25-Jul-2017 08:50:55 GMT; path=/
+    - mode=0; expires=Wed, 26-Jul-2017 10:49:30 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 17 Apr 2017 08:50:55 GMT
+    - Tue, 18 Apr 2017 10:49:30 GMT
     Location:
     - https://gov.gg/article/153117/Paul-Le-Pelley
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 17 Apr 2017 08:50:51 GMT
+recorded_at: Tue, 18 Apr 2017 10:49:24 GMT
