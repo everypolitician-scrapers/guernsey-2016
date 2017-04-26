@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=2zvvimqbpvquv23rggtr2euv; path=/; HttpOnly
+    - ASP.NET_SessionId=gsspupnmas3nqkafxhvj04ss; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 25-Apr-2012 11:39:30 GMT; path=/
-    - clientvars=ecdba371-5352-44b5-94d6-05b8315c41e6; expires=Thu, 27-Apr-2017 11:39:30
+    - TextOnlyX=; expires=Thu, 26-Apr-2012 03:02:47 GMT; path=/
+    - clientvars=70472f0f-6b77-4a4e-8631-ddf886f15ad7; expires=Fri, 28-Apr-2017 03:02:47
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 02-Aug-2017 11:39:30 GMT; path=/
+    - mode=0; expires=Thu, 03-Aug-2017 03:02:47 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 25 Apr 2017 11:39:30 GMT
+    - Wed, 26 Apr 2017 03:02:47 GMT
     Location:
     - https://gov.gg/article/153123/Peter-Roffey
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 25 Apr 2017 11:39:17 GMT
+recorded_at: Wed, 26 Apr 2017 03:02:34 GMT
