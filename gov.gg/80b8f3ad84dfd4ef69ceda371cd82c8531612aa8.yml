@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=u1aw144hnxau5vcb0c5vtnzh; path=/; HttpOnly
+    - ASP.NET_SessionId=kckkl5yldbkufoyfn3r204aj; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Tue, 15-May-2012 11:05:11 GMT; path=/
-    - clientvars=23129356-eba5-42f4-aa0a-b64a7ab7be2c; expires=Wed, 17-May-2017 11:05:11
+    - TextOnlyX=; expires=Wed, 16-May-2012 10:43:10 GMT; path=/
+    - clientvars=ac16540f-a339-47d9-a321-fc2c70e7de2c; expires=Thu, 18-May-2017 10:43:10
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 22-Aug-2017 11:05:11 GMT; path=/
+    - mode=0; expires=Wed, 23-Aug-2017 10:43:10 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 15 May 2017 11:05:10 GMT
+    - Tue, 16 May 2017 10:43:10 GMT
     Location:
     - https://gov.gg/article/153128/Emilie-Yerby
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 15 May 2017 11:05:07 GMT
+recorded_at: Tue, 16 May 2017 10:43:06 GMT
