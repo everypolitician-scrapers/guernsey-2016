@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=3k305fjxbyduqo3xqtx3fkel; path=/; HttpOnly
+    - ASP.NET_SessionId=pxknmdewizfajkwrbend5rd3; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Tue, 22-May-2012 22:52:30 GMT; path=/
-    - clientvars=e17c76f0-f71e-4279-8624-a74f958cc82e; expires=Wed, 24-May-2017 22:52:30
+    - TextOnlyX=; expires=Wed, 23-May-2012 15:43:56 GMT; path=/
+    - clientvars=73828623-e800-4af5-91fa-cb489cfa40ac; expires=Thu, 25-May-2017 15:43:56
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 29-Aug-2017 22:52:30 GMT; path=/
+    - mode=0; expires=Wed, 30-Aug-2017 15:43:56 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 22 May 2017 22:52:29 GMT
+    - Tue, 23 May 2017 15:43:55 GMT
     Location:
     - https://gov.gg/article/153127/Andrea-Dudley-Owen
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 22 May 2017 22:52:18 GMT
+recorded_at: Tue, 23 May 2017 15:43:44 GMT
