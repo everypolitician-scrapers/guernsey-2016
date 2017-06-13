@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=1svu3ja0akfpjby0snt21y3j; path=/; HttpOnly
+    - ASP.NET_SessionId=d1d0mzo4h2sr4pr25bb134pe; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Tue, 12-Jun-2012 11:43:49 GMT; path=/
-    - clientvars=071356de-10f5-411e-849a-b880358c3eec; expires=Wed, 14-Jun-2017 11:43:49
+    - TextOnlyX=; expires=Wed, 13-Jun-2012 04:52:38 GMT; path=/
+    - clientvars=980adf4b-6e9e-4005-a800-28a83f3649f6; expires=Thu, 15-Jun-2017 04:52:38
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 19-Sep-2017 11:43:49 GMT; path=/
+    - mode=0; expires=Wed, 20-Sep-2017 04:52:38 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Mon, 12 Jun 2017 11:43:48 GMT
+    - Tue, 13 Jun 2017 04:52:38 GMT
     Location:
     - https://gov.gg/article/153146/Marc-Leadbeater
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 12 Jun 2017 11:43:32 GMT
+recorded_at: Tue, 13 Jun 2017 04:52:21 GMT
