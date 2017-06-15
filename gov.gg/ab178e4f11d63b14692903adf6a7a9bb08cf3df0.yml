@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=krkqpbl32c43mi20jjsc0uka; path=/; HttpOnly
+    - ASP.NET_SessionId=3l2gydumvh22oqfbrdqcveen; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 14-Jun-2012 05:56:48 GMT; path=/
-    - clientvars=eea6d7b9-f0a8-4087-94a2-a873869cf8da; expires=Fri, 16-Jun-2017 05:56:48
+    - TextOnlyX=; expires=Fri, 15-Jun-2012 18:27:14 GMT; path=/
+    - clientvars=8ab6f2c7-bb18-4cf5-a23b-e470b673cfc3; expires=Sat, 17-Jun-2017 18:27:14
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 21-Sep-2017 05:56:48 GMT; path=/
+    - mode=0; expires=Fri, 22-Sep-2017 18:27:14 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 14 Jun 2017 05:56:48 GMT
+    - Thu, 15 Jun 2017 18:27:14 GMT
     Location:
     - https://gov.gg/article/153137/Peter-Ferbrache
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 14 Jun 2017 05:56:30 GMT
+recorded_at: Thu, 15 Jun 2017 18:27:14 GMT
