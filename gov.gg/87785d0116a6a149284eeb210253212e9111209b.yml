@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=r5wig1z4i0v0fjojhlvnizgr; path=/; HttpOnly
+    - ASP.NET_SessionId=hhmnuj0af31osh5qupxssr5x; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 28-Jun-2012 15:27:56 GMT; path=/
-    - clientvars=e70ea9f4-b3a9-4027-8d93-bc6d9f54e7f0; expires=Fri, 30-Jun-2017 15:27:56
+    - TextOnlyX=; expires=Fri, 29-Jun-2012 01:33:13 GMT; path=/
+    - clientvars=d1140e3c-0bbd-4b16-98f0-d43c4e0a9bbd; expires=Sat, 01-Jul-2017 01:33:13
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 05-Oct-2017 15:27:56 GMT; path=/
+    - mode=0; expires=Fri, 06-Oct-2017 01:33:13 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 28 Jun 2017 15:27:56 GMT
+    - Thu, 29 Jun 2017 01:33:12 GMT
     Location:
     - https://gov.gg/article/153141/Rhian-Tooley
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 28 Jun 2017 15:27:51 GMT
+recorded_at: Thu, 29 Jun 2017 01:33:08 GMT
