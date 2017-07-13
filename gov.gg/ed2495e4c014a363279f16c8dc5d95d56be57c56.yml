@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=oc24qxfmamdjzygyzi3s2rf0; path=/; HttpOnly
+    - ASP.NET_SessionId=xenl5w5nccp4j1nxeyfnrbfp; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 12-Jul-2012 00:15:39 GMT; path=/
-    - clientvars=2e978f3c-897c-48ae-a3a1-77b525a44b38; expires=Fri, 14-Jul-2017 00:15:39
+    - TextOnlyX=; expires=Fri, 13-Jul-2012 10:34:55 GMT; path=/
+    - clientvars=63ddd6cc-b562-44d9-bf63-4e9c4f09e4d0; expires=Sat, 15-Jul-2017 10:34:55
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 19-Oct-2017 00:15:39 GMT; path=/
+    - mode=0; expires=Fri, 20-Oct-2017 10:34:55 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 12 Jul 2017 00:15:39 GMT
+    - Thu, 13 Jul 2017 10:34:54 GMT
     Location:
     - https://gov.gg/richardgraham
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 12 Jul 2017 00:15:22 GMT
+recorded_at: Thu, 13 Jul 2017 10:34:56 GMT
