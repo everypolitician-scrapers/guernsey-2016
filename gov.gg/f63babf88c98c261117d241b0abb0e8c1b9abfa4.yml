@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=rbgx0pzfxe003s51jxsc3mj5; path=/; HttpOnly
+    - ASP.NET_SessionId=1ja5f2yeo1iucvg0f1okmfbu; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 18-Jul-2012 13:49:56 GMT; path=/
-    - clientvars=826e92d6-dddf-4e37-a8cc-4d3bd624dd03; expires=Thu, 20-Jul-2017 13:49:56
+    - TextOnlyX=; expires=Thu, 19-Jul-2012 04:28:18 GMT; path=/
+    - clientvars=cd9146a1-b2ca-48f1-bc28-b0b075443bb7; expires=Fri, 21-Jul-2017 04:28:18
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 25-Oct-2017 13:49:56 GMT; path=/
+    - mode=0; expires=Thu, 26-Oct-2017 04:28:18 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 18 Jul 2017 13:49:55 GMT
+    - Wed, 19 Jul 2017 04:28:18 GMT
     Location:
     - https://gov.gg/article/153144/Lester-Queripel
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 18 Jul 2017 13:49:51 GMT
+recorded_at: Wed, 19 Jul 2017 04:28:14 GMT
