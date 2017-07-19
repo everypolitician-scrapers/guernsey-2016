@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=1pjiu24cixwdxdk0gp04k1d5; path=/; HttpOnly
+    - ASP.NET_SessionId=5xeuwc5wq2m5rnnq0s3j5ofl; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 18-Jul-2012 13:55:05 GMT; path=/
-    - clientvars=ef9b27e5-a95f-4c14-b1f2-fbdf7d3c858b; expires=Thu, 20-Jul-2017 13:55:05
+    - TextOnlyX=; expires=Thu, 19-Jul-2012 04:32:46 GMT; path=/
+    - clientvars=c821d8e1-4d90-4fb1-a570-5946dbf825e8; expires=Fri, 21-Jul-2017 04:32:46
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 25-Oct-2017 13:55:05 GMT; path=/
+    - mode=0; expires=Thu, 26-Oct-2017 04:32:46 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 18 Jul 2017 13:55:05 GMT
+    - Wed, 19 Jul 2017 04:32:46 GMT
     Location:
     - https://gov.gg/article/153125/Victoria-Oliver
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 18 Jul 2017 13:55:00 GMT
+recorded_at: Wed, 19 Jul 2017 04:32:41 GMT
