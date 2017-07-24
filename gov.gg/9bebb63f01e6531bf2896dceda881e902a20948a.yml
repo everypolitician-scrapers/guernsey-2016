@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=5bvxrqrjtmosidcajfu33rib; path=/; HttpOnly
+    - ASP.NET_SessionId=0fjvg1wl3hqplhr1devqjowa; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 23-Jul-2012 01:43:30 GMT; path=/
-    - clientvars=fc8ff156-0fd7-4e11-93e8-4f7506371b76; expires=Tue, 25-Jul-2017 01:43:30
+    - TextOnlyX=; expires=Tue, 24-Jul-2012 14:59:41 GMT; path=/
+    - clientvars=de2f812f-8e2c-4fcd-b422-26fd7ecb7cbc; expires=Wed, 26-Jul-2017 14:59:41
       GMT; path=/; HttpOnly
-    - mode=0; expires=Mon, 30-Oct-2017 02:43:30 GMT; path=/
+    - mode=0; expires=Tue, 31-Oct-2017 15:59:41 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sun, 23 Jul 2017 01:43:29 GMT
+    - Mon, 24 Jul 2017 14:59:40 GMT
     Location:
     - https://gov.gg/article/153108/Gavin-St-Pier
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 23 Jul 2017 01:43:21 GMT
+recorded_at: Mon, 24 Jul 2017 14:59:31 GMT
