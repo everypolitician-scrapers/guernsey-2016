@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=sd3poljdog1aodbusc1cwnra; path=/; HttpOnly
+    - ASP.NET_SessionId=1s5dumcqjezzfr4qciglicae; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 08-Aug-2012 15:52:48 GMT; path=/
-    - clientvars=5e9a18a5-4944-4bb2-ac92-cc343dc5f5f5; expires=Thu, 10-Aug-2017 15:52:48
+    - TextOnlyX=; expires=Thu, 09-Aug-2012 23:33:08 GMT; path=/
+    - clientvars=4dde44f0-4164-4850-8f89-c7ef2bd0738b; expires=Fri, 11-Aug-2017 23:33:08
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 15-Nov-2017 16:52:48 GMT; path=/
+    - mode=0; expires=Fri, 17-Nov-2017 00:33:08 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 08 Aug 2017 15:52:47 GMT
+    - Wed, 09 Aug 2017 23:33:08 GMT
     Location:
     - https://gov.gg/article/153120/Carl-Meerveld
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 08 Aug 2017 15:52:23 GMT
+recorded_at: Wed, 09 Aug 2017 23:33:08 GMT
