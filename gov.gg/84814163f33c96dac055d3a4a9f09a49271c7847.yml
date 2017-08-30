@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=o1mm2wu4ol0oad1bhrzku4kl; path=/; HttpOnly
+    - ASP.NET_SessionId=1q2ngc35leobd3rykyqws11f; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 29-Aug-2012 16:56:35 GMT; path=/
-    - clientvars=2ccd9748-9875-4b5b-8e5a-bf29f256de35; expires=Thu, 31-Aug-2017 16:56:35
+    - TextOnlyX=; expires=Thu, 30-Aug-2012 00:16:44 GMT; path=/
+    - clientvars=68194483-a32f-4404-a608-5137e014691d; expires=Fri, 01-Sep-2017 00:16:44
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 06-Dec-2017 17:56:35 GMT; path=/
+    - mode=0; expires=Thu, 07-Dec-2017 01:16:44 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 29 Aug 2017 16:56:35 GMT
+    - Wed, 30 Aug 2017 00:16:44 GMT
     Location:
     - https://gov.gg/article/153140/Barry-Brehaut
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 29 Aug 2017 16:56:14 GMT
+recorded_at: Wed, 30 Aug 2017 00:16:23 GMT
