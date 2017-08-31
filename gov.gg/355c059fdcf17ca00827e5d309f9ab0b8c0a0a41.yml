@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=5ifruiwyb1uq5vr1t1ddq2ve; path=/; HttpOnly
+    - ASP.NET_SessionId=53pixvb3erjd4oi2h35cx5i2; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 30-Aug-2012 00:19:16 GMT; path=/
-    - clientvars=1b2e99f8-8424-4158-ad92-71c0de30921f; expires=Fri, 01-Sep-2017 00:19:16
+    - TextOnlyX=; expires=Fri, 31-Aug-2012 12:01:36 GMT; path=/
+    - clientvars=18ecd4a6-ac40-4d30-a851-db3d4c63d1a8; expires=Sat, 02-Sep-2017 12:01:36
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 07-Dec-2017 01:19:16 GMT; path=/
+    - mode=0; expires=Fri, 08-Dec-2017 13:01:36 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 30 Aug 2017 00:19:16 GMT
+    - Thu, 31 Aug 2017 12:01:36 GMT
     Location:
     - https://gov.gg/article/153133/Mary-Lowe
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 30 Aug 2017 00:18:55 GMT
+recorded_at: Thu, 31 Aug 2017 12:01:14 GMT
