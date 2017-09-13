@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=igk5zdppnbpk4z3qk2rdbeu5; path=/; HttpOnly
+    - ASP.NET_SessionId=lp1v2yyoqn0levyqynlvys21; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 12-Sep-2012 00:23:37 GMT; path=/
-    - clientvars=c8b08bd2-44f9-4512-a223-d013949c3ad6; expires=Thu, 14-Sep-2017 00:23:37
+    - TextOnlyX=; expires=Thu, 13-Sep-2012 11:01:46 GMT; path=/
+    - clientvars=9358ce62-41cc-4ac2-8da4-68af30c9194a; expires=Fri, 15-Sep-2017 11:01:46
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 20-Dec-2017 01:23:37 GMT; path=/
+    - mode=0; expires=Thu, 21-Dec-2017 12:01:46 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 12 Sep 2017 00:23:36 GMT
+    - Wed, 13 Sep 2017 11:01:46 GMT
     Location:
     - https://gov.gg/article/153147/Joseph-Mooney
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 12 Sep 2017 00:23:04 GMT
+recorded_at: Wed, 13 Sep 2017 11:01:46 GMT
