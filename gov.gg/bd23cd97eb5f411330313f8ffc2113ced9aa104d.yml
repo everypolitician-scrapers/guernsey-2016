@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=vz1gj5bqgfiuwut0pmdfufgk; path=/; HttpOnly
+    - ASP.NET_SessionId=twxqro1ju4sfgamaj35r1dh2; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 12-Sep-2012 00:22:04 GMT; path=/
-    - clientvars=e06bb926-ac01-4700-b451-c06777633f88; expires=Thu, 14-Sep-2017 00:22:04
+    - TextOnlyX=; expires=Thu, 13-Sep-2012 11:03:00 GMT; path=/
+    - clientvars=1826e8c9-976a-4e9a-b42b-39a0789e2252; expires=Fri, 15-Sep-2017 11:03:00
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 20-Dec-2017 01:22:04 GMT; path=/
+    - mode=0; expires=Thu, 21-Dec-2017 12:03:00 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 12 Sep 2017 00:22:04 GMT
+    - Wed, 13 Sep 2017 11:03:00 GMT
     Location:
     - https://gov.gg/article/153121/Heidi-Soulsby
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 12 Sep 2017 00:21:31 GMT
+recorded_at: Wed, 13 Sep 2017 11:03:00 GMT
