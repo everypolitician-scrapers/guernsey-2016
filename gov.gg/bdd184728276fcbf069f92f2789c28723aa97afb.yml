@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=p5qn0z0r5bgr5iks3k22u3vl; path=/; HttpOnly
+    - ASP.NET_SessionId=t5cpr4q0mxa4axzgtzaz1gjg; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 24-Sep-2012 18:31:32 GMT; path=/
-    - clientvars=8f526b1d-6819-438b-8d86-555133ce3ea5; expires=Tue, 26-Sep-2017 18:31:32
+    - TextOnlyX=; expires=Tue, 25-Sep-2012 07:04:23 GMT; path=/
+    - clientvars=ca995414-51f8-4e96-86d3-9c149c4a1e2b; expires=Wed, 27-Sep-2017 07:04:23
       GMT; path=/; HttpOnly
-    - mode=0; expires=Mon, 01-Jan-2018 19:31:32 GMT; path=/
+    - mode=0; expires=Tue, 02-Jan-2018 08:04:23 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sun, 24 Sep 2017 18:31:31 GMT
+    - Mon, 25 Sep 2017 07:04:23 GMT
     Location:
     - https://gov.gg/article/153149/Chris-Green
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 24 Sep 2017 18:31:21 GMT
+recorded_at: Mon, 25 Sep 2017 07:04:12 GMT
