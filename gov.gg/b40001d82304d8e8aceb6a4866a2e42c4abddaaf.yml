@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=sldkywxotq52ucyfou10derj; path=/; HttpOnly
+    - ASP.NET_SessionId=fy14niclr4svw2wvwsompz11; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Mon, 08-Oct-2012 23:36:26 GMT; path=/
-    - clientvars=123219b4-c7ce-4e77-babe-df3941ccb83f; expires=Tue, 10-Oct-2017 23:36:26
+    - TextOnlyX=; expires=Wed, 10-Oct-2012 08:00:05 GMT; path=/
+    - clientvars=7067eece-24d5-441f-bfc8-e0c1d362663a; expires=Thu, 12-Oct-2017 08:00:05
       GMT; path=/; HttpOnly
-    - mode=0; expires=Tue, 16-Jan-2018 00:36:26 GMT; path=/
+    - mode=0; expires=Wed, 17-Jan-2018 09:00:05 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sun, 08 Oct 2017 23:36:26 GMT
+    - Tue, 10 Oct 2017 08:00:05 GMT
     Location:
     - https://gov.gg/article/153145/Michelle-Le-Clerc
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 08 Oct 2017 23:36:01 GMT
+recorded_at: Tue, 10 Oct 2017 07:59:39 GMT
