@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=0q44ei3j4o4jk0lg3kdcjgbw; path=/; HttpOnly
+    - ASP.NET_SessionId=dwnvc4q1qzg2egkmnz0cpevv; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 10-Oct-2012 07:59:54 GMT; path=/
-    - clientvars=2f9d9578-ec0e-42b7-8d15-bbe907bbc430; expires=Thu, 12-Oct-2017 07:59:54
+    - TextOnlyX=; expires=Thu, 11-Oct-2012 13:42:42 GMT; path=/
+    - clientvars=d105751a-9af3-403f-b799-8b2e8b207608; expires=Fri, 13-Oct-2017 13:42:42
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 17-Jan-2018 08:59:54 GMT; path=/
+    - mode=0; expires=Thu, 18-Jan-2018 14:42:42 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 10 Oct 2017 07:59:53 GMT
+    - Wed, 11 Oct 2017 13:42:42 GMT
     Location:
     - https://gov.gg/article/153131/Matt-Fallaize
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 10 Oct 2017 07:59:28 GMT
+recorded_at: Wed, 11 Oct 2017 13:42:41 GMT
