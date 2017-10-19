@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=02ssn54uzdmfx40hkgsq502m; path=/; HttpOnly
+    - ASP.NET_SessionId=txa55v3y4yqysoljnuqnqw5a; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 18-Oct-2012 08:43:47 GMT; path=/
-    - clientvars=6ba2e285-ec4d-4061-93e4-7bdadf49de58; expires=Fri, 20-Oct-2017 08:43:47
+    - TextOnlyX=; expires=Fri, 19-Oct-2012 02:58:39 GMT; path=/
+    - clientvars=b70abd97-775b-4709-a9d7-31cfbe4d7ef3; expires=Sat, 21-Oct-2017 02:58:39
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 25-Jan-2018 09:43:47 GMT; path=/
+    - mode=0; expires=Fri, 26-Jan-2018 03:58:39 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 18 Oct 2017 08:43:47 GMT
+    - Thu, 19 Oct 2017 02:58:40 GMT
     Location:
     - https://gov.gg/article/153138/Jan-Kuttelwascher
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 18 Oct 2017 08:43:40 GMT
+recorded_at: Thu, 19 Oct 2017 02:58:32 GMT
