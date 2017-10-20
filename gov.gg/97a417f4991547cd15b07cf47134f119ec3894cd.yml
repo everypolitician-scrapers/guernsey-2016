@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=wy5t3f2ftjpmgfu4rd0o0iw3; path=/; HttpOnly
+    - ASP.NET_SessionId=t4twkcmes300bs0m4dxwju45; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Fri, 19-Oct-2012 02:58:14 GMT; path=/
-    - clientvars=daf698e0-561f-40f4-b684-d6ebfb49ecde; expires=Sat, 21-Oct-2017 02:58:14
+    - TextOnlyX=; expires=Sat, 20-Oct-2012 22:55:04 GMT; path=/
+    - clientvars=2b83969b-f60c-445e-a7e5-7ca5f499f803; expires=Sun, 22-Oct-2017 22:55:04
       GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 26-Jan-2018 03:58:14 GMT; path=/
+    - mode=0; expires=Sat, 27-Jan-2018 23:55:04 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 19 Oct 2017 02:58:14 GMT
+    - Fri, 20 Oct 2017 22:55:04 GMT
     Location:
     - https://gov.gg/article/153119/Jane-Stephens
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 19 Oct 2017 02:58:06 GMT
+recorded_at: Fri, 20 Oct 2017 22:54:54 GMT
