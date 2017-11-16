@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=npqybxpmiaj4oajfnwlnu01s; path=/; HttpOnly
+    - ASP.NET_SessionId=4oewe554w0gzhqz4x5abph23; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Wed, 14-Nov-2012 07:31:12 GMT; path=/
-    - clientvars=42263c86-e7f4-486e-bc19-ccd7800b5ba2; expires=Thu, 16-Nov-2017 07:31:12
+    - TextOnlyX=; expires=Fri, 16-Nov-2012 06:55:59 GMT; path=/
+    - clientvars=dd5119a3-2f62-4ee2-9a00-4ce311ed168c; expires=Sat, 18-Nov-2017 06:55:59
       GMT; path=/; HttpOnly
-    - mode=0; expires=Wed, 21-Feb-2018 07:31:12 GMT; path=/
+    - mode=0; expires=Fri, 23-Feb-2018 06:55:59 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Tue, 14 Nov 2017 07:31:12 GMT
+    - Thu, 16 Nov 2017 06:55:59 GMT
     Location:
     - https://gov.gg/article/153118/Jennifer-Merrett
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 14 Nov 2017 07:30:39 GMT
+recorded_at: Thu, 16 Nov 2017 06:55:58 GMT
