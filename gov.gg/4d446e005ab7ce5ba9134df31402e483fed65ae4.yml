@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=ug33xnyw353afclu4hvxlbjj; path=/; HttpOnly
+    - ASP.NET_SessionId=irgxomhaspxkyb2p4rehu0or; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Thu, 15-Nov-2012 06:34:30 GMT; path=/
-    - clientvars=06c0a04a-6cfa-4794-b243-e90fd2dc6d4f; expires=Fri, 17-Nov-2017 06:34:30
+    - TextOnlyX=; expires=Fri, 16-Nov-2012 06:59:55 GMT; path=/
+    - clientvars=acbf01d1-ffa8-4d9d-8c52-09138d76aa49; expires=Sat, 18-Nov-2017 06:59:55
       GMT; path=/; HttpOnly
-    - mode=0; expires=Thu, 22-Feb-2018 06:34:30 GMT; path=/
+    - mode=0; expires=Fri, 23-Feb-2018 06:59:55 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Wed, 15 Nov 2017 06:34:30 GMT
+    - Thu, 16 Nov 2017 06:59:55 GMT
     Location:
     - https://gov.gg/article/153151/Mark-Dorey
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 15 Nov 2017 06:34:30 GMT
+recorded_at: Thu, 16 Nov 2017 06:59:54 GMT
