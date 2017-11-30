@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=igb1wg0jjm21g5q3pb1lcos3; path=/; HttpOnly
+    - ASP.NET_SessionId=jzy3euiy5t1nhlyfkttcniqq; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Sun, 25-Nov-2012 08:26:41 GMT; path=/
-    - clientvars=1f894377-e634-403b-84ce-99bd233752c7; expires=Mon, 27-Nov-2017 08:26:41
+    - TextOnlyX=; expires=Fri, 30-Nov-2012 14:43:20 GMT; path=/
+    - clientvars=4ef32b16-e922-4de6-8439-9f52899a1b45; expires=Sat, 02-Dec-2017 14:43:20
       GMT; path=/; HttpOnly
-    - mode=0; expires=Sun, 04-Mar-2018 08:26:41 GMT; path=/
+    - mode=0; expires=Fri, 09-Mar-2018 14:43:20 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Sat, 25 Nov 2017 08:26:41 GMT
+    - Thu, 30 Nov 2017 14:43:19 GMT
     Location:
     - https://gov.gg/article/153107/John-Gollop
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 25 Nov 2017 08:26:31 GMT
+recorded_at: Thu, 30 Nov 2017 14:43:05 GMT
