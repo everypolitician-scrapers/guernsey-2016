@@ -20,17 +20,17 @@ response:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=lzlys5ua0r2bwqpoq0p0geqi; path=/; HttpOnly
+    - ASP.NET_SessionId=1miqcgrfkqpald4aqnc3pojl; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Fri, 30-Nov-2012 14:49:57 GMT; path=/
-    - clientvars=344adfa0-3842-4787-bc70-e4efb36d188d; expires=Sat, 02-Dec-2017 14:49:57
+    - TextOnlyX=; expires=Sat, 01-Dec-2012 03:28:05 GMT; path=/
+    - clientvars=ca66126b-1999-471e-b3df-9e11f269b8eb; expires=Sun, 03-Dec-2017 03:28:04
       GMT; path=/; HttpOnly
-    - mode=0; expires=Fri, 09-Mar-2018 14:49:57 GMT; path=/
+    - mode=0; expires=Sat, 10-Mar-2018 03:28:05 GMT; path=/
     Content-Length:
     - '0'
     Date:
-    - Thu, 30 Nov 2017 14:49:57 GMT
+    - Fri, 01 Dec 2017 03:28:04 GMT
     Location:
     - https://gov.gg/article/153130/Shane-Langlois
     Server:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 30 Nov 2017 14:49:42 GMT
+recorded_at: Fri, 01 Dec 2017 03:27:53 GMT
