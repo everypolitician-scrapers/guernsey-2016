@@ -14,23 +14,26 @@ request:
     - Ruby
 response:
   status:
-    code: 200
-    message: OK
+    code: 302
+    message: Found
   headers:
     Connection:
     - Keep-Alive
     Set-Cookie:
-    - ASP.NET_SessionId=rkbf30k4aywkhsu3poxrm5vf; path=/; HttpOnly
     - ISAWPLB{CC6DC4B6-A00D-44DB-80B2-6907B8DC481C}={8FEA645E-18D8-4561-99EE-660C46E2E26A};
       HttpOnly; Path=/
-    - TextOnlyX=; expires=Sun, 09-Dec-2012 09:22:21 GMT; path=/
-    - clientvars=602a7593-6262-4aed-8872-84f4993720ff; expires=Mon, 11-Dec-2017 09:22:21
+    - TextOnlyX=; expires=Mon, 10-Dec-2012 08:37:28 GMT; path=/
+    - clientvars=422cc313-8c8a-4187-8f63-20a07a547ac0; expires=Tue, 12-Dec-2017 08:37:28
       GMT; path=/; HttpOnly
-    - mode=0; expires=Sun, 18-Mar-2018 09:22:21 GMT; path=/
+    - mode=0; expires=Mon, 19-Mar-2018 08:37:28 GMT; path=/
+    Content-Length:
+    - '169'
     Expires:
-    - Sat, 09 Dec 2017 09:22:21 GMT
+    - Sun, 10 Dec 2017 08:37:28 GMT
     Date:
-    - Sat, 09 Dec 2017 09:22:23 GMT
+    - Sun, 10 Dec 2017 08:37:31 GMT
+    Location:
+    - "/html/ErrorPageCustom.html?aspxerrorpath=/index.aspx"
     Content-Type:
     - text/html; charset=utf-8
     Server:
@@ -41,9 +44,7 @@ response:
     - no-cache
     X-Powered-By:
     - ASP.NET
-    Transfer-Encoding:
-    - chunked
   body:
-    encoding: ASCII-8BIT
+    encoding: UTF-8
   http_version: 
-recorded_at: Sat, 09 Dec 2017 09:22:24 GMT
+recorded_at: Sun, 10 Dec 2017 08:37:30 GMT
