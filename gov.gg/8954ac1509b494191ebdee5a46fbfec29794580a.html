@@ -66,9 +66,9 @@
 				            <link href="./govgg1/css/editor.css" rel="stylesheet" type="text/css" media="all" />
 <link href="./govgg1/css/reset.css" rel="stylesheet" type="text/css" media="all" />
 <link href="./govgg1/css/html5reset-1.6.1.css" rel="stylesheet" type="text/css" media="all" />
-<link href="./govgg1/css/main.css" rel="stylesheet" type="text/css" media="all" />
+<link href="./govgg1/css/mainstyles.css" rel="stylesheet" type="text/css" media="all" />
 <link href="./govgg1/css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
-<link href="./govgg1/css/mobile.css" rel="stylesheet" type="text/css" media="(max-width:1466px)" />
+<link href="./govgg1/css/mobilestyles.css" rel="stylesheet" type="text/css" media="(max-width:1466px)" />
 <link href="./govgg1/css/print.css" rel="stylesheet" type="text/css" media="print" />
 <!--[if IE 8]> 
 <link href="./govgg1/css/ie8.css" rel="stylesheet" type="text/css" media="all" />
@@ -124,58 +124,42 @@
 		
         <body onload="pageLoaded();">       
                
-                    <header>       
+                    <header><div id="innerHeader">       
                                           
-                        <a href="https://gov.gg/article/119613/GOVGG" id="logo"><img src="./govgg1/images/lions-new.png" alt="lions" />GOV.GG</a>   
-                        <p id="logoText">Information and public services for the Island of Guernsey</p>   
+                        <a href="https://gov.gg/article/119613/GOVGG" id="logo"><span class="alert-Crest"></span>GOV.GG</a>   
+                        <p id="logoText">The official website for the States of Guernsey</p>   
 
                         <div id="iconContainer">
-                            <span class="icon-NewsIcon noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'News');" data-feed="newsFeedContainer"></span>
-                            <span class="icon-guernsey-box noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Map');" data-feed="eventFeedContainer"></span>
-                            <span class="icon-recycle noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Recycle');" data-feed="recycleFeedContainer"></span>
-                            <span class="icon-weather noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Weather');" data-feed="weatherContainer"><span>Today</span></span>
-                            <span class="icon-boat noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Sailings');" data-feed="harboursFeedContainer"></span>
-                            <span class="icon-plane noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Flights');" data-feed="airportFeedContainer"></span>                                
-                            <span class="icon-GoogleTranslate noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Translate');" data-feed="translateFeedContainer"></span>
+                            <span class="alert-Quicklinkrecycle noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Recycle');" data-feed="recycleFeedContainer"></span>
+                            <span class="alert-Quiclinkweather noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Weather');" data-feed="weatherContainer"><span>Today</span></span>
+                            <span class="alert-Quicklinktranslate noselect" onclick="ga('send', 'event', 'Icon', 'Click', 'Translate');" data-feed="translateFeedContainer"></span>
+                            <span class="alert-Search"></span>
+                            <span class="alert-Hamburger"></span>
                         </div>
 
-                        <div id="feedContainer">
-                            <div id="newsFeedContainer">
-                            <h4>News</h4>
-                            
-                            
-                            
+                        
 
-                            
-                                      
-                                <h5>Winter pressures - HSC &amp; off-island update</h5>
-                                <span class="newsDate">Thursday 04 January 2018</span>
-                                    
-                                            <p>Winter pressures placed on Health &amp; Social Care are building and islanders are being thanked for their continued understanding, support and co-operation as the increased pressure placed on services is managed.</p>
-                                         
-                                <a href="https://gov.gg/article/163176/Winter-pressures---HSC--off-island-update" onclick="ga('send', 'event', 'News Item', 'Click', 'Winter pressures - HSC &amp; off-island update');">Read more</a>
-                            
-                                      
-                                <h5>Committee sets record straight on architect appointment</h5>
-                                <span class="newsDate">Tuesday 02 January 2018</span>
-                                    
-                                            <p>The Committee for Education Sport &amp; Culture has provided further clarity on the appointment of architects to carry out the feasibility of the four secondary schools sites for potential use as two 1300 or 1450 pupil 11-18 schools.</p>
-                                         
-                                <a href="https://gov.gg/article/163107/Committee-sets-record-straight-on-architect-appointment" onclick="ga('send', 'event', 'News Item', 'Click', 'Committee sets record straight on architect appointment');">Read more</a>
-                            
-                                      
-                                <h5>Guernsey&#39;s first public electric vehicle charging stations now live</h5>
-                                <span class="newsDate">Tuesday 02 January 2018</span>
-                                    
-                                            <p>Two new electric vehicle charging stations are now available for the public to use. </p>
-                                         
-                                <a href="https://gov.gg/article/163101/Guernseys-first-public-electric-vehicle-charging-stations-now-live" onclick="ga('send', 'event', 'News Item', 'Click', 'Guernsey&#39;s first public electric vehicle charging stations now live');">Read more</a>
-                            
-                            
-                            <a href="https://gov.gg/news" onclick="ga('send', 'event', 'News Link', 'Click', 'All News');" class="newsAll">All News</a>
-                            
-                            </div>
-                            <div id="eventFeedContainer">Coming soon – a map of events, hazards and other useful information</div>
+
+
+
+    
+    <div id="toplevelsearch">
+        <form action="https://gov.gg/article/162975/Search-Whole-Site?sort=Relevance&amp;size=10#top" method="get">
+        <fieldset>
+            <span class="icon-mag-search"></span>
+            
+				<input id="q" name="q" value="" placeholder="Search gov.gg" /><input class="submit" id="blockButton" value="Search" type="submit" />
+            
+            <input type="hidden" name="size" value="10" />
+            
+        </fieldset>
+        </form>
+    </div>
+
+
+
+                        <div id="feedContainer">
+                           
                             <div id="recycleFeedContainer"><span class="icon-sack31"></span>
                             <h4></h4>
                             <p></p>
@@ -185,37 +169,27 @@
                                     <a style="clear:both; font-size: 0.6em;" onclick="ga('send', 'event', 'Recycle Link', 'Click', 'Recycling');" href="https://gov.gg/recycling">Recycling</a>
                                 
                             </div>
-                            <div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/f.svg" alt="weather icon" /><span id="weatherSummary">Mainly cloudy,  perhaps some bright intervals.
-Occasional rain by late afternoon, clearing to fair periods
-and scattered showers by midnight.</span></div><span id="highTemp"><span>High</span>10&deg;C</span><span id="lowTemp"><span>Low</span>7&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate to
-poor.</span><span id="openSeas"><span>Open Seas</span>Slight to moderate, increasing
-moderate to rather rough this afternoon, with a low
-swell.</span><span id="wind"><span>Wind</span>Southeast to south  light F3 to moderate F4,
-increasing fresh F5 during the afternoon, occasionally
-strong F6 by evening, veering southwest to west mid
-evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div><div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/f.svg" alt="weather icon" /><span id="weatherSummary">Mainly cloudy,  perhaps some bright intervals.
-Occasional rain by late afternoon, clearing to fair periods
-and scattered showers by midnight.</span></div><span id="highTemp"><span>High</span>10&deg;C</span><span id="lowTemp"><span>Low</span>7&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, occasionally moderate to
-poor.</span><span id="openSeas"><span>Open Seas</span>Slight to moderate, increasing
-moderate to rather rough this afternoon, with a low
-swell.</span><span id="wind"><span>Wind</span>Southeast to south  light F3 to moderate F4,
-increasing fresh F5 during the afternoon, occasionally
-strong F6 by evening, veering southwest to west mid
-evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div>
-                            <div id="harboursFeedContainer">
-                            <br /><br /><h4>Arrival</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:28%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>From</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Arrived</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>ChannelChief&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Jersey&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>06:00&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>05:50A&nbsp;</font></td></tr></table><br /> <br /><h4>Departure</h4><br /><table class='FeedTable' cellpadding=0 width=440 cellspacing=0 align=center border=0><tr><td class=headingTabs style=width:37%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Vessel</b></font></td><td class=headingTabs style=width:27%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>To</b></font></td><td class=headingTabs style=width:17%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Time</b></font></td><td class=headingTabs style=width:18%; align=left><FONT SIZE=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Departed</b></font></td></tr><tr><td class='vessel' valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>Valiant&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif><b>Jersey&nbsp;</b></font></td><td width=15% valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>16:00&nbsp;</font></td><td valign=top align=left><font size=1 FACE=Verdana, Arial, Helvetica, sans-serif>&nbsp;</font></td></tr></table>  
+                            <div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Rather cloudy. Fair or sunny periods
+developing by this afternoon. Becoming cloudy overnight,
+with  outbreaks of rain by Monday morning.</span></div><span id="highTemp"><span>High</span>8&deg;C</span><span id="lowTemp"><span>Low</span>5&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Mainly good, becoming moderate to poor in
+rain by Monday morning.</span><span id="openSeas"><span>Open Seas</span>Slight with swell,  increasing
+moderate by midnight and rather rough to rough by
+morning.</span><span id="wind"><span>Wind</span>Easterly light F2 to 3, occasionally moderate
+F4 early morning , veering southwesterly by evening,
+increasing  moderate F4  to fresh F5 late evening, then
+strong F6 after midnight and strong  F7 by
+morning.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div><div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Rather cloudy. Fair or sunny periods
+developing by this afternoon. Becoming cloudy overnight,
+with  outbreaks of rain by Monday morning.</span></div><span id="highTemp"><span>High</span>8&deg;C</span><span id="lowTemp"><span>Low</span>5&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Mainly good, becoming moderate to poor in
+rain by Monday morning.</span><span id="openSeas"><span>Open Seas</span>Slight with swell,  increasing
+moderate by midnight and rather rough to rough by
+morning.</span><span id="wind"><span>Wind</span>Easterly light F2 to 3, occasionally moderate
+F4 early morning , veering southwesterly by evening,
+increasing  moderate F4  to fresh F5 late evening, then
+strong F6 after midnight and strong  F7 by
+morning.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div>
                             
                             
-                            
-                            
-                                
-                                    <a href="http://www.guernseyharbours.gov.gg/article/100192/Arrivals--Departures" onclick="ga('send', 'event', 'Sailings Link', 'Click', 'All arrivals and departures');" target="_blank">All arrivals and departures</a>
-                                    <a href="https://gov.gg/article/120608/Shipping-Forecast" onclick="ga('send', 'event', 'Sailings Link', 'Click', 'Shipping forecast');">Shipping forecast</a>
-                                
-                            </div>
-                            <div id="airportFeedContainer"><br /><br /><h4>Arrival</h4><br /><table id="airarrivals"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">From</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline mail">Mail/Newspapers</span></td><td>06:30</td><td>2018-01-09</td><td><span class="location mail">Mail</span></td><td><span class="number npt22g">NPT22G</span></td><td>Arrived 0636</td></tr></table><br /> <br /><h4>Departure</h4><br /><table id="airdepartures"><tr><td style="width:15%" class="headingTabs">Airline</td><td style="width:10%" class="headingTabs">Time</td><td style="width:20%" class="headingTabs">Date</td><td style="width:15%" class="headingTabs">To</td><td style="width:15%" class="headingTabs">Flight</td><td style="width:25%" class="headingTabs">Status</td></tr><tr><td><span class="airline flybe">Flybe</span></td><td>08:10</td><td>2018-01-09</td><td><span class="location jersey">Jersey</span></td><td><span class="number be6406">BE6406</span></td><td>Check In Open ,Go To Departure Lounge</td></tr></table>
-                                <a href="https://www.airport.gg/arrivals-departures" onclick="ga('send', 'event', 'Flights Link', 'Click', 'All arrivals and departures');" target="_blank">All arrivals and departures</a>
-                            </div>
                             
                                 <div id="translateFeedContainer">
                                     <ul class="translation-links">
@@ -248,9 +222,9 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
                              <!--<button id="signIn" onClick="OIDC.login( {scope : 'openid profile email',
                       response_type : 'token id_token'} );"
                       type="button" class="btn btn-success" >Sign In</button>-->
+                            <!--<button id="signIn" type="button" class="btn btn-success js-login">Sign In</button>-->
                             
-							<a href="/signin" id="signIn">Sign In</a>
-							<!--<button id="signIn" type="button" class="btn btn-success js-login">Sign In</button>      -->                     
+                            <a href="/signin" id="signIn">Sign In</a>
 
                             <a href="https://qa.gov.gg/cb-signin" class="username1"></a>                            
 
@@ -304,8 +278,10 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
 
                         <!--<script src="govgg1/scripts/openidconnect.js" type="text/javascript"></script>-->
                         <!--<script src="govgg1/scripts/jquery/cookie.js" type="text/javascript"></script>-->
-                        <script src="govgg1/scripts/oidc-client.js" type="text/javascript"></script>                        
-                        <script src="govgg1/scripts/implicit1.js" type="text/javascript"></script>
+                        <script src="govgg1/scripts/oidc-client.js" type="text/javascript"></script>        
+                        
+                        <!--<script src="govgg1/scripts/implicit1.js" type="text/javascript"></script>-->
+
                             <!--<script>
 
                                 var userInfoClaims = null;
@@ -387,126 +363,165 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
 
                         <!-- Single Signon END -->
                         
-
-                        <div id="mobileHeader">
-                            <span class="icon-mag-search noselect"></span>                                                        
-                            <div id="nav-icon3">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                            </div>
+                        
                         </div>
-
                     </header>  
 
                     <nav>
-                        
+                                                      
+                            <ul><li>
+                                
+                                
 
+                                
+                                        <a href="https://gov.gg/article/163251/Government">Government</a>
+                                    
 
+                                
+                            </li><li>
+                                
+                                
 
+                                
+                                        <span>All Services<i class="fa fa-chevron-down"></i></span>
+                                    
 
+                                
+                                        <div class="childrenContainer"><h3><a href="https://gov.gg/all">All Services</a></h3><ul>
+                                    <li>
+                                        
+                                        <a href="https://gov.gg/article/163187/Affordable-Housing-Benefits-Allowances--Support"><span>Affordable Housing, Benefits, Allowances &amp; Support</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119650/Business-Charity--Not-For-Profit"><span>Business, Charity &amp; Not-For-Profit</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163191/Community-Safety"><span>Community Safety</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/dvl"><span>Driving, Vehicles, Transport &amp; Roads</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163185/Education-Working--Retiring"><span>Education, Working &amp; Retiring</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163192/Environment-Weather--Tides"><span>Environment, Weather &amp; Tides</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/data"><span>Facts &amp; Figures</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119684/Family--Pets"><span>Family &amp; Pets</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163251/Government"><span>Government</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119652/Health-Social-Care--Wellbeing"><span>Health, Social Care &amp; Wellbeing</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119655/Imports--Exports"><span>Imports &amp; Exports</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119651/Income-Tax-Social-Security--Population-Management"><span>Income Tax, Social Security &amp; Population Management</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/payit"><span>Invoices &amp; Payments</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/119653/Leisure-Culture--Entertainment"><span>Leisure, Culture &amp; Entertainment</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163186/Moving-to--Living-in-Guernsey"><span>Moving to &amp; Living in Guernsey</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163252/News"><span>News</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/planningandbuilding"><span>Planning &amp; Building</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/waste"><span>Waste &amp; Recycling</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163253/Your-Views"><span>Your Views</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/163258/Contact-Us"><span>Contact Us</span></a>
+                                    </li>
+                                        </ul></div>
+                                    
+                            </li><li>
+                                
+                                
 
+                                
+                                        <a href="https://gov.gg/article/161886/Pay-It">Pay It</a>
+                                    
 
-<ul><li>
-<a href="https://gov.gg/talk">Your Views</a>
-</li><li>
-<a href="https://gov.gg/article/161886/Pay-It">Pay It</a>
-</li><li>
-<a href="https://gov.gg/all">All Services</a>
-</li><li>
-<a href="https://gov.gg/updates">News</a>
-</li><li>
-<span>Contact Us</span>
-</li><li>
-<div id="navlevelsearch">    
-    <form action="https://gov.gg/article/119870/Search-Whole-Site?sort=Relevance&amp;size=10#top" method="get">
-	    <fieldset>
-		    <span class="icon-mag-search"></span>
-		    
-				    <input id="q" name="q" value="" placeholder="Search gov.gg" />
-			    
-		    <input class="submit" id="blockButton" value="Search" type="submit" />
-		    
-		    <input type="hidden" name="size" value="10" />
-		    
-	    </fieldset>
-    </form>
-</div> 
-<span class="icon-mag-search noselect" id="mobileMag"></span>
-<!--<div id="MobileButton">≡</div>-->
+                                
+                            </li><li>
+                                
+                                
 
-<div id="nav-icon4">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-    
-<script type="text/javascript">
-    $('#nav-icon4').click(function () {
-        if ($('#sideMenu').css('right') == '-355px') 
-        { 
-            $('#sideMenu').css('right', '0px');            
-            $(this).addClass('open'); 
-        } 
-        else { 
-            $('#sideMenu').css('right', '-355px');
-            $(this).removeClass('open');
-        } 
-    });
-    
-</script>
+                                
+                                        <a href="https://gov.gg/article/163252/News">News</a>
+                                    
 
-</li></ul>
+                                
+                            </li><li>
+                                
+                                
 
+                                
+                                        <a href="https://gov.gg/article/163253/Your-Views">Your Views</a>
+                                    
 
+                                
+                            </li><li>
+                                
+                                
 
-<ul id="sideMenu">
-    <li class="sepTitle"><span>Public Services</span></li>
-    <li>
-        <a href="https://gov.gg/all">All Services</a>
-    </li><li>
-        <a href="https://gov.gg/updates">News</a>
-    </li><li>
-        <a href="https://gov.gg/article/119651/Work-Housing-and-Support">Work, Housing and Support</a>
-    </li><li>
-        <a href="https://gov.gg/planning_transport_waste_services">Planning, Building, Transport &amp; Waste </a>
-    </li><li>
-        <a href="https://gov.gg/parliament">Government</a>
-    </li><li>
-        <a href="https://gov.gg/data">Facts and Figures</a>
-    </li><li>
-        <a href="https://gov.gg/article/119684/Life-Events">Life Events</a>
-    </li><li>
-        <a href="https://gov.gg/talk">Your Views</a>
-    </li><li>
-        <a href="https://gov.gg/article/119650/Business-Charity-and-Not-For-Profit">Business, Charity and Not-For-Profit</a>
-    </li><li>
-        <a href="https://gov.gg/article/119655/Imports-Exports-Immigration-and-Emigration">Imports, Exports, Immigration and Emigration</a>
-    </li><li>
-        <a href="https://gov.gg/article/119652/Health-Social-Care-and-Community-Safety">Health, Social Care and Community Safety</a>
-    </li><li>
-        <a href="https://gov.gg/article/119653/Education-Environment-and-Infrastructure-Culture-and-Leisure">Education, Environment and Infrastructure, Culture and Leisure</a>
-    </li>
-    <li class="sepTitle"><span>My Island</span></li>
-    <li>
-    <a href="https://gov.gg/parliament">Government</a>        
-    </li><li>
-    <a href="https://gov.gg/data">Facts and Figures</a>        
-    </li><li>
-    <a href="https://gov.gg/article/119684/Life-Events">Life Events</a>        
-    </li><li>
-    <a href="https://gov.gg/updates">News</a>        
-    </li>
-</ul>                            
+                                
+                                        <span>Contact Us<i class="fa fa-chevron-down"></i></span>
+                                    
+
+                                
+                                        <div class="childrenContainer"><h3><a href="https://gov.gg/contactus">Contact Us</a></h3><ul>
+                                    <li>
+                                        
+                                        <a href="https://gov.gg/article/151197/A-Z-of-all-Contact-Details"><span>A-Z of all Contact Details</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162934/States-Members-Contact-Details"><span>States Members Contact Details</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162961/Parish-Contact-Details"><span>Parish Contact Details</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162936/Request-Access-to-Public-Information"><span>Request Access to Public Information</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162938/Leave-Feedback-Comments-or-Compliments"><span>Leave Feedback, Comments or Compliments</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162266/Tell-Us-When-You-Move-Home-or-Leave-the-Island"><span>Tell Us When You Move Home or Leave the Island</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/article/162937/Make-a-Complaint"><span>Make a Complaint</span></a>
+                                    </li><li>
+                                        
+                                        <a href="https://gov.gg/reportit"><span>Report a Community Issue</span></a>
+                                    </li>
+                                        </ul></div>
+                                    
+                            </li></ul>
+                        </icm:Override>   
                     </nav>
                     
-                      
+                        
 
-                    <div id="searchContainer">
-
-                    
+                    <div id="searchContainer">                    
                         
                             
 
@@ -515,13 +530,11 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
 
     
     <div id="toplevelsearch">
-        <form action="https://gov.gg/article/119870/Search-Whole-Site?sort=Relevance&amp;size=10#top" method="get">
+        <form action="https://gov.gg/article/162975/Search-Whole-Site?sort=Relevance&amp;size=10#top" method="get">
         <fieldset>
             <span class="icon-mag-search"></span>
             
-				<input id="q" name="q" value="" placeholder="Search gov.gg" />
-			
-            <input class="submit" id="blockButton" value="Search" type="submit" />
+				<input id="q" name="q" value="" placeholder="Search gov.gg" /><input class="submit" id="blockButton" value="Search" type="submit" />
             
             <input type="hidden" name="size" value="10" />
             
@@ -531,13 +544,9 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
 
 
                         
-
-
                     </div>
 
-                    
-
-                 
+                                     
             
             <div id="CenterContainer">            
                 
@@ -858,12 +867,11 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
                 }
 
                 $('a.galleryiframe').colorbox({ iframe: true, innerWidth: 853, innerHeight: 480 });
-
-                
                 
             </script>
 
-            
+            <script src="govgg1/template/default/scripts/default.js" type="text/javascript"></script>
+
 
             
 
@@ -875,27 +883,77 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
             
 <ul id="subNavigation"><li>
 
-<span>Choose one of the following</span>
+<span>A-Z of all Contact Details<i class="fa fa-chevron-right"></i></span>
     
             
 
             <ul>
-            <li><a href="https://gov.gg/article/151197/A-Z-of-all-Contact-Details">A-Z of all Contact Details</a></li>
+            <li><a href="https://gov.gg/article/151223/A-F">A-F</a></li>
             
-            <li><a href="https://gov.gg/article/162934/States-Members-Contact-Details">States Members Contact Details</a></li>
+            <li><a href="https://gov.gg/article/151366/G-O">G-O</a></li>
             
-            <li><a href="https://gov.gg/article/162961/Parish-Contact-Details">Parish Contact Details</a></li>
-            
-            <li><a href="https://gov.gg/article/162936/Request-Access-to-Public-Information">Request Access to Public Information</a></li>
-            
-            <li><a href="https://gov.gg/article/162938/Leave-Feedback-Comments-or-Compliments">Leave Feedback, Comments or Compliments</a></li>
-            
-            <li><a href="https://gov.gg/article/162266/Tell-Us-When-You-Move-Home-or-Leave-the-Island">Tell Us When You Move Home or Leave the Island</a></li>
-            
-            <li><a href="https://gov.gg/article/162937/Make-a-Complaint">Make a Complaint</a></li>
-            
-            <li><a href="https://gov.gg/reportit">Report a Community Issue</a></li>
+            <li><a href="https://gov.gg/article/151367/P-Z">P-Z</a></li>
             </ul>
+        
+</li><li>
+
+<span>States Members Contact Details<i class="fa fa-chevron-right"></i></span>
+    
+            
+
+            <ul>
+            <li><a href="https://gov.gg/article/153232/States-Members">States Members</a></li>
+            
+            <li><a href="https://gov.gg/article/154930/Committees-Authorities-Boards-and-Commissions">Committees, Authorities, Boards and Commissions</a></li>
+            </ul>
+        
+</li><li>
+
+<span>Parish Contact Details<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/article/162961/Parish-Contact-Details">Parish Contact Details</a></li></ul>                            
+                
+        
+</li><li>
+
+<span>Request Access to Public Information<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/article/162936/Request-Access-to-Public-Information">Request Access to Public Information</a></li></ul>                            
+                
+        
+</li><li>
+
+<span>Leave Feedback, Comments or Compliments<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/article/162938/Leave-Feedback-Comments-or-Compliments">Leave Feedback, Comments or Compliments</a></li></ul>                            
+                
+        
+</li><li>
+
+<span>Tell Us When You Move Home or Leave the Island<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/article/162266/Tell-Us-When-You-Move-Home-or-Leave-the-Island">You can tell all States of Guernsey services of a change of address in one go here.</a></li></ul>
+                
+        
+</li><li>
+
+<span>Make a Complaint<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/article/162937/Make-a-Complaint">Make a Complaint</a></li></ul>                            
+                
+        
+</li><li>
+
+<span>Report a Community Issue<i class="fa fa-chevron-right"></i></span>
+    
+            
+                    <ul><li><a href="https://gov.gg/reportit">Report a Community Issue</a></li></ul>                            
+                
         
 </li></ul>  
 
@@ -948,16 +1006,8 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
                         preloadimages: 'visible'
                     });
 
-                    $('.gallerySlide').bxSlider({
-                        slideWidth: 250,
-                        minSlides: 1,
-                        maxSlides: maxSlides2,
-                        moveSlides: 1,
-                        auto: false,
-                        controls: true,
-                        pause: 6000,
-                        pager: false,
-                        slideMargin: 57
+                    $('#websitesContainer span.button').click(function () {
+                        $('#CenterContainer .gallerySlide').toggleClass('open');
                     });
 
                     $('blockquote ul li > h3').click(function () {
@@ -993,26 +1043,8 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
             <div id="socialFooter">
 
             <div id="tweetsContainer">
-            
-
-            <script type="text/javascript" src="./govgg1/scripts/main.js"></script>
-                        
-                <!--Gov.gg Twitter 
-                <a class="twitter-timeline" href="https://twitter.com/Govgg" data-theme="dark" data-link-color="#ffffff" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-dnt="true" data-widget-id="644532868211982336">Tweets by @Govgg</a>
-                <script>    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
-                                    -->                                
-                <!--Harbours Twitter 
-                <a class="twitter-timeline" href="https://twitter.com/GsyHarbours" data-theme="dark" data-link-color="#ffffff" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-dnt="true" data-widget-id="644532580021366784">Tweets by @GsyHarbours</a>
-                <script>    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
-                -->
-                <!--Police Twitter 
-                <a class="twitter-timeline" href="https://twitter.com/GuernseyPolice" data-theme="dark" data-link-color="#ffffff" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-dnt="true" data-widget-id="644533204419002368">Tweets by @GuernseyPolice</a>
-                <script>    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
-                -->
-                <!--Election Twitter
-                <a class="twitter-timeline" href="https://twitter.com/GovElection2016" data-theme="dark" data-link-color="#ffffff" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="1" data-dnt="true" data-widget-id="644533452101001220">Tweets by @GovElection2016</a>
-                <script>    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
-                -->
+                       <script type="text/javascript" src="./govgg1/scripts/main.js"></script>
+                                        
             </div>
 
             
@@ -1085,9 +1117,11 @@ evening.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', '
 
                         
 
-                <a href="https://www.facebook.com/govgg" target="_blank" class="icon-fb"></a>
-                <a href="https://twitter.com/Govgg" target="_blank" class="icon-tw"></a>
-                <a href="https://www.youtube.com/channel/UCC7bV5KJPlbGILCAVj3Th_A" target="_blank" class="icon-yt"></a>
+                <h3>Follow us on social media</h3>
+                <a href="https://www.facebook.com/govgg" target="_blank" class="alert-Facebook"></a>
+                <a href="https://twitter.com/Govgg" target="_blank" class="alert-Twitter"></a>
+                <a href="https://www.youtube.com/channel/UCC7bV5KJPlbGILCAVj3Th_A" target="_blank" class="alert-Youtube"></a>
+                <a href="https://www.linkedin.com/company/states-of-guernsey/" class="alert-Linkedin"></a>
                 <!--<a href="#" class="icon-pint"></a>
                 <a href="#" class="icon-lin"></a>-->
 
