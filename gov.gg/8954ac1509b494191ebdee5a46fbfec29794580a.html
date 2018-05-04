@@ -187,17 +187,7 @@
                                     <a style="clear:both; font-size: 0.6em;" onclick="ga('send', 'event', 'Recycle Link', 'Click', 'Recycling');" href="https://gov.gg/recycling">Recycling</a>
                                 
                             </div>
-                            <div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Sunny periods, becoming rather cloudy this
-evening. A risk of mist towards Friday morning.</span></div><span id="highTemp"><span>High</span>14&deg;C</span><span id="lowTemp"><span>Low</span>9&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, perhaps moderate to poor by Friday
-morning.</span><span id="openSeas"><span>Open Seas</span>Smooth or slight, with a low
-swell.</span><span id="wind"><span>Wind</span>Northwest light F1 to 3, backing west this
-afternoon, becoming southwest or variable
-overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div><div id="weatherContainer"><div id="left"><img src="https://gov.gg/govgg1/images/weather/d.svg" alt="weather icon" /><span id="weatherSummary">Sunny periods, becoming rather cloudy this
-evening. A risk of mist towards Friday morning.</span></div><span id="highTemp"><span>High</span>14&deg;C</span><span id="lowTemp"><span>Low</span>9&deg;C</span><div id="Right"><span id="Visibility"><span>Visibility</span>Good, perhaps moderate to poor by Friday
-morning.</span><span id="openSeas"><span>Open Seas</span>Smooth or slight, with a low
-swell.</span><span id="wind"><span>Wind</span>Northwest light F1 to 3, backing west this
-afternoon, becoming southwest or variable
-overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event', 'Weather Link', 'Click', '5 day forecast');" href="https://gov.gg/article/120703/5-Day-Weather-Forecast">5 day forecast</a><a onclick="ga('send', 'event', 'Weather Link', 'Click', 'Tide timetables');" href="https://gov.gg/tides">Tide timetables</a></div>
+                            error loading feedUnable to connect to the remote server
                             
                             
                             
@@ -830,7 +820,39 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
 
                 </script>
             </div>
+
             
+ 
+
+ 
+
+<div id="mshareContainer">
+    <h4>
+        Share this page</h4>
+    <a class="icon-twitter47" href="https://www.twitter.com/share?url=https://gov.gg"
+        target="_blank" onclick="return popitup('https://www.twitter.com/share?url=')">
+    </a><a class="icon-facebook29" href="https://www.facebook.com/sharer/sharer.php?u=#https://gov.gg"
+        target="_blank" onclick="return popitup('https://www.facebook.com/sharer/sharer.php?u=#')">
+    </a><a class="icon-email5" onclick="javascript:window.location='mailto:?subject=Interesting information&body=I thought you might find this information interesting: ' + window.location; return false;">
+    </a>
+    <!--<a class="icon-clipboard85" onclick="copyToClipboard()"></a>-->
+    <textarea class="js-copytextarea" style="display: none"></textarea>
+    <script type="text/javascript">
+        function popitup(url) {
+            newwindow = window.open(url + window.location.href, 'name', 'height=300,width=350');
+            if (window.focus) { newwindow.focus() }
+            return false;
+        }
+
+        /*function copyToClipboard() {
+        window.prompt("Copy to clipboard: Ctrl+C, Enter", window.location.href);
+        }*/
+
+    </script>
+</div>
+
+
+
             
 
             
@@ -878,7 +900,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
  
             
             
-<ul id="subNavigation"><li>
+<ul id="subNavigation"><li id="navItem151197">
 
 <span>A-Z of all Contact Details<i class="fa fa-chevron-right"></i></span>
     
@@ -892,7 +914,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
             <li><a href="https://gov.gg/article/151367/P-Z">P-Z</a></li>
             </ul>
         
-</li><li>
+</li><li id="navItem162934">
 
 <span>States Members Contact Details<i class="fa fa-chevron-right"></i></span>
     
@@ -904,7 +926,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
             <li><a href="https://gov.gg/article/154930/Committees-Authorities-Boards-and-Commissions">Committees, Authorities, Boards and Commissions</a></li>
             </ul>
         
-</li><li>
+</li><li id="navItem162961">
 
 <span>Parish Contact Details<i class="fa fa-chevron-right"></i></span>
     
@@ -912,7 +934,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                     <ul><li><a href="https://gov.gg/article/162961/Parish-Contact-Details">Parish Contact Details</a></li></ul>                            
                 
         
-</li><li>
+</li><li id="navItem162936">
 
 <span>Request Access to Public Information<i class="fa fa-chevron-right"></i></span>
     
@@ -920,7 +942,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                     <ul><li><a href="https://gov.gg/article/162936/Request-Access-to-Public-Information">Request Access to Public Information</a></li></ul>                            
                 
         
-</li><li>
+</li><li id="navItem162938">
 
 <span>Leave Feedback, Comments or Compliments<i class="fa fa-chevron-right"></i></span>
     
@@ -928,7 +950,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                     <ul><li><a href="https://gov.gg/article/162938/Leave-Feedback-Comments-or-Compliments">Leave Feedback, Comments or Compliments</a></li></ul>                            
                 
         
-</li><li>
+</li><li id="navItem162266">
 
 <span>Tell Us When You Move Home or Leave the Island<i class="fa fa-chevron-right"></i></span>
     
@@ -936,7 +958,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                     <ul><li><a href="https://gov.gg/article/162266/Tell-Us-When-You-Move-Home-or-Leave-the-Island">You can tell all States of Guernsey services of a change of address in one go here.</a></li></ul>
                 
         
-</li><li>
+</li><li id="navItem162937">
 
 <span>Make a Complaint<i class="fa fa-chevron-right"></i></span>
     
@@ -944,7 +966,7 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                     <ul><li><a href="https://gov.gg/article/162937/Make-a-Complaint">Make a Complaint</a></li></ul>                            
                 
         
-</li><li>
+</li><li id="navItem162929">
 
 <span>Report a Community Issue<i class="fa fa-chevron-right"></i></span>
     
@@ -953,37 +975,6 @@ overnight.</span></div><br style="clear:both;" /><a onclick="ga('send', 'event',
                 
         
 </li></ul>  
-
-            
- 
-
- 
-
-<div id="mshareContainer">
-    <h4>
-        Share this page</h4>
-    <a class="icon-twitter47" href="https://www.twitter.com/share?url=https://gov.gg"
-        target="_blank" onclick="return popitup('https://www.twitter.com/share?url=')">
-    </a><a class="icon-facebook29" href="https://www.facebook.com/sharer/sharer.php?u=#https://gov.gg"
-        target="_blank" onclick="return popitup('https://www.facebook.com/sharer/sharer.php?u=#')">
-    </a><a class="icon-email5" onclick="javascript:window.location='mailto:?subject=Interesting information&body=I thought you might find this information interesting: ' + window.location; return false;">
-    </a>
-    <!--<a class="icon-clipboard85" onclick="copyToClipboard()"></a>-->
-    <textarea class="js-copytextarea" style="display: none"></textarea>
-    <script type="text/javascript">
-        function popitup(url) {
-            newwindow = window.open(url + window.location.href, 'name', 'height=300,width=350');
-            if (window.focus) { newwindow.focus() }
-            return false;
-        }
-
-        /*function copyToClipboard() {
-        window.prompt("Copy to clipboard: Ctrl+C, Enter", window.location.href);
-        }*/
-
-    </script>
-</div>
-
 
             
 	
