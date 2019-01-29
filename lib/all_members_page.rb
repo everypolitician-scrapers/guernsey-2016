@@ -5,8 +5,8 @@ class AllMembersPage < Scraped::HTML
   field :members do
     member_nodes.drop(1).map do |mem|
       {
-        name: mem.text.tidy,
-        url:  mem.xpath('a/@href').text,
+        name: mem.css('span').map(&:text).first.sub(/^Deputy/, '').tidy,
+        url:  mem.css('a/@href').text,
       }
     end
   end
@@ -14,6 +14,6 @@ class AllMembersPage < Scraped::HTML
   private
 
   def member_nodes
-    noko.xpath("id('subNavigation')/li[4]/ul//li")
+    noko.xpath("id('subNavigation')//li[@id]")
   end
 end
