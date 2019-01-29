@@ -17,13 +17,6 @@ class MemberPage < Scraped::HTML
     'Independent'
   end
 
-  field :address do
-    noko.xpath('//p//span[.="Address:"]/following-sibling::text()')
-        .map(&:text)
-        .map(&:tidy)
-        .join(', ')
-  end
-
   field :email do
     noko.xpath('//p/a[contains(@href, "mailto:")]/@href').text
         .gsub('mailto:', '')
@@ -44,18 +37,6 @@ class MemberPage < Scraped::HTML
 
   field :facebook do
     noko.xpath('//div[@id="contactDetails"]//span[@class="icon-fb"]/../@href')
-        .text
-        .tidy
-  end
-
-  field :phone do
-    noko.xpath('//div[@id="contactDetails"]//span[.="Telephone:"]/following-sibling::text()')
-        .text
-        .tidy
-  end
-
-  field :mobile do
-    noko.xpath('//div[@id="contactDetails"]//span[.="Mobile:"]/following-sibling::text()')
         .text
         .tidy
   end
