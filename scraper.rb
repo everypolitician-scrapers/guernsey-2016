@@ -10,14 +10,13 @@ OpenURI::Cache.cache_path = '.cache'
 
 require_rel 'lib'
 
-url = 'https://gov.gg/article/153232/States-Members'
-member_list = AllMembersPage.new(response: Scraped::Request.new(url: url).response).members
-
-warn "Found #{member_list.size} members"
-
-data = member_list.map do |mem|
-  MemberPage.new(response: Scraped::Request.new(url: mem[:url]).response).to_h
+def scraper(h)
+  url, klass = h.to_a.first
+  klass.new(response: Scraped::Request.new(url: url).response)
 end
+
+url = 'https://gov.gg/article/153232/States-Members'
+data = scraper(url => AllMembersPage).members.map { |mem| scraper(mem[:url] => MemberPage).to_h }
 data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
