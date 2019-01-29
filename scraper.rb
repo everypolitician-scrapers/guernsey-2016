@@ -10,12 +10,8 @@ require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
 class AllMembersPage < Scraped::HTML
-  field :members do
-    member_nodes.drop(1).map do |mem|
-      {
-        url:  mem.css('a/@href').text,
-      }
-    end
+  field :member_urls do
+    member_nodes.drop(1).map { |mem| mem.css('a/@href').text }
   end
 
   private
@@ -69,7 +65,7 @@ def scraper(h)
 end
 
 url = 'https://gov.gg/article/153232/States-Members'
-data = scraper(url => AllMembersPage).members.map { |mem| scraper(mem[:url] => MemberPage).to_h }
+data = scraper(url => AllMembersPage).member_urls.map { |url| scraper(url => MemberPage).to_h }
 data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
