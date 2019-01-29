@@ -10,14 +10,18 @@ require 'open-uri/cached'
 OpenURI::Cache.cache_path = '.cache'
 
 class AllMembersPage < Scraped::HTML
-  field :member_urls do
-    member_nodes.drop(1).map { |mem| mem.css('a/@href').text }
+  field :members do
+    member_urls.map { |url| Scraped::Scraper.new(url => MemberPage).scraper.to_h }
   end
 
   private
 
   def member_nodes
     noko.xpath("id('subNavigation')//li[@id]")
+  end
+
+  def member_urls
+    member_nodes.drop(1).map { |mem| mem.css('a/@href').text }
   end
 end
 
@@ -59,14 +63,5 @@ class MemberPage < Scraped::HTML
   end
 end
 
-def scraper(h)
-  url, klass = h.to_a.first
-  klass.new(response: Scraped::Request.new(url: url).response)
-end
-
 url = 'https://gov.gg/article/153232/States-Members'
-data = scraper(url => AllMembersPage).member_urls.map { |url| scraper(url => MemberPage).to_h }
-data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
-
-ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-ScraperWiki.save_sqlite([:name], data)
+Scraped::Scraper.new(url => AllMembersPage).store(:members, index: %i[name area])
