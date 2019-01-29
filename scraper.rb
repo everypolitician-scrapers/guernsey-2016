@@ -16,6 +16,7 @@ member_list = AllMembersPage.new(response: Scraped::Request.new(url: url).respon
 warn "Found #{member_list.size} members"
 
 member_list.each do |mem|
-  member = MemberPage.new(response: Scraped::Request.new(url: mem[:url]).response)
-  ScraperWiki.save_sqlite([:name], member.to_h)
+  data = MemberPage.new(response: Scraped::Request.new(url: mem[:url]).response).to_h
+  puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
+  ScraperWiki.save_sqlite([:name], data)
 end
